@@ -1,0 +1,19 @@
+{
+  "name": "web-template",
+  "version": "1.0.0",
+  "description": "LIEN web template",
+  "repository": {},
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "Will Hanlen",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-favicon": "^2.5.0"
+  }
+}
