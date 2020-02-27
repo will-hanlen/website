@@ -46,6 +46,7 @@ img {
   margin-top: 3rem;
   width: 100%;
   max-width: 500px;
+  user-select: none;
 }
 
 h1 {
@@ -95,7 +96,11 @@ a:hover {
 }
 
 nav {
-  line-height: 35px;
-  /* text-align: center; */
-  font-size: 1.3rem;
+  line-height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  margin-bottom: 100px;
 }
