@@ -1,8 +1,9 @@
 html {
-  --bg: #fcfcfd;
-  --fg: #222222;
+  --bg: #fffcfa;
+  --fg: #320;
   
-  --alternate-fg: #1eb8b0;
+  --alternate-fg: #983;
+  --alternate-bg: #fec;
 }
 
 html {
@@ -10,58 +11,91 @@ html {
   background: var(--bg);
   color: var(--fg);
 }
+
 @media only screen and (min-width: 450px) {
   html {
     font-size: 19px;
   }
 }
+
 body {
   padding: 0;
-  width: 95%;
+  width: 90%;
   max-width: 680px;
   margin: 0 auto;
   margin-bottom: 25vh;
   font-family: Arial, Helvetica, sans-serif;
 }
+body *::selection {
+  background: var(--alternate-bg);
+}
+body *::-moz-selection {
+  background: var(--alternate-bg);
+}
+
+hr {
+  border: none;
+  height: 0.1rem;
+  background-color: var(--alternate-fg);
+  width: 50%;
+}
+
 img {
   display: block;
   margin: auto;
+  margin-top: 3rem;
   width: 100%;
   max-width: 500px;
 }
+
 h1 {
   font-size: 2.6rem;
   text-align: center;
 }
+
 h2 {
   font-size: 2rem;
 }
+
 h3 {
   font-size: 1.5rem;
 }
+
 p {
   font-size: 1rem;
 }
+
+h1, h2, h3 {
+  text-shadow: 0.04em 0 var(--alternate-fg);
+  letter-spacing: 0.02em;
+}
+
 h1, h2, h3, p {
   line-height: calc(0.7em + 1rem);
   font-weight: normal;
   padding: 0;
   margin: 1em 0;
 }
+
 li {
   line-height: 1.4rem;
 }
+
 ul, ol {
   margin: 1em 0;
 }
+
 a {
   color: var(--alternate-fg);
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 nav {
   line-height: 35px;
-  margin-bottom: 3rem;
+  /* text-align: center; */
+  font-size: 1.3rem;
 }
