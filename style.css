@@ -1,0 +1,201 @@
+/*===================================================
+--------------------- Variables ---------------------
+===================================================*/
+
+
+
+html {
+
+  /* Colors */
+  --fg:  #121235;
+  --fg2: #be5059;
+  --fg3: #5c171d;
+  --bg:  #fffcfa;
+  --bg2: #ecc9be;
+
+  /* Font sizes */
+  --t1: 1rem;
+  --t2: 2rem;
+
+  /* Spacing */
+  --s: 1.5;
+  --s1: calc(var(--s) * var(--t1));
+  --s2: calc(var(--s) * var(--t2));
+
+  /* Container Width */
+  --width: 600px;
+}
+
+
+
+/*===================================================
+---------------------- Resets -----------------------
+===================================================*/
+
+
+
+html, body, h1, h2, h3, p, ol,
+ul, div, span, article,
+aside, main, section, header {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: var(--fg);
+
+  font-size: calc(0.7 * 1rem);
+  line-height: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+li {
+  list-style-position: inside;
+}
+
+body {
+  font-family: 'DM Mono', monospace;
+}
+
+
+
+/*===================================================
+-------------------- Structure ----------------------
+===================================================*/
+
+
+body {
+  position: relative;
+  border-top: 0.7em solid var(--fg);
+  margin-bottom: 50px;
+}
+
+body:before {
+  content: " ";
+  z-index: -1;
+  position: absolute;
+  top: 0em;
+  left: 0;
+
+  width: 100%;
+  border-top: 0.3em solid var(--fg2);
+}
+
+nav {
+  width: 90%;
+  max-width: var(--width);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+article {
+  width: 90%;
+  max-width: var(--width);
+  margin: 0 auto;
+  margin-bottom: 15vh;
+}
+
+ul, ol, blockquote, .indented, img {
+  margin: 1rem;
+}
+
+img {
+  width: calc(100% - 2rem);
+  margin-top: 0;
+}
+
+.nav-list {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*===================================================
+-------------------- Components ---------------------
+===================================================*/
+
+
+
+h1 {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: bold;
+
+  text-align: center;
+
+  text-transform: uppercase;
+  color: var(--fg2);
+  /* text-shadow: 0.08em 0.0 var(--fg3); */
+  letter-spacing: 0.2em;
+
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 2rem;
+
+  letter-spacing: 0.05em;
+}
+
+h3 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+p {
+  text-align: justify;
+}
+
+::selection {
+  background-color: var(--bg2);
+}
+
+a {
+  color: var(--fg2);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/*===================================================
+----------------- Responsive Layout -----------------
+===================================================*/
+
+
+
+/* Mobile (Default) */
+html { 
+  font-size: 19px;
+}
+
+
+/* Tablet modifications*/
+@media (min-width: 460px) {
+
+html {
+  font-size: 21px;
+}
+
+}
+
+
+/* Desktop modifications*/
+@media (min-width: 800px) {
+
+html {
+  font-size: 25px;
+}
+
+}

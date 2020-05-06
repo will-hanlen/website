@@ -1,0 +1,105 @@
+* Overview
+
+I'm a guy trying to understand life and how to live it.
+This site documents my attempt to live a fruitful and fulfilling life.
+
+** Site Structure
+
+Guiding principles: **performant and intuitively accessable** 
+
+- every page is one click away from the homepage
+- every page has a links back to the homepage
+- entire sheet is styled by a single stylesheet
+- page size < 200kb
+  - 20kb code
+  - 180kb images
+- mobile layout = desktop layout
+
+** Site Aesthetic  
+
+Guiding principles: **simple and pleasing**
+
+- 1 layer design
+- Unify drawings and typography
+
+** Writing Guide
+   Guiding principles: **standalone**, **understandable**, and **valuable**
+
+**Drafting**
+
+- Choose topics that will be valuable to yourself and others, but avoid being too self-helpy
+
+    An essay should be **useful**. 
+
+- Idea should be expressible in **one** sentence
+- Outline paragraphs by writing the **one** idea it will represent
+- Distill significant ideas into powerful statements and put them front and center
+- Draft without editing. Express the ideas first, then go back and refine.
+
+**Style**
+
+- Use the strongest appropriate verb
+- Prefer sentences with objects before verbs
+- Avoid complex words and phrasing
+- Avoid relative times, and times in general
+- Avoid pointless gendering
+- First person
+
+**Editing**
+
+- Refine sentences to their simplest form, *then* add flair if needed.
+- Title must **intrigue** the reader
+- First sentence must **hook** the reader
+** Meta Rules
+
+   Guiding principles: Be **genuine** and **provide value**
+
+**Self-imposed limitations:**
+
+- Write for my children, not for fame or attention
+- Shouldn't interfere with main projects or life goals
+- Writing is a supplement to my life, not the goal
+
+    Don't become a writer who exclusively, *yet productively,* writes about productivity
+
+    The articles will be better if they intersect with real world experiences
+
+- Focus on changing myself instead of changing the world
+
+**Monetization:**
+
+- Only if the message won't be diluted and can be done passively
+- Method: sell prints of cover drawings through a print-on-demand service
+- Method: self publish articles and drawings as a book (print-on-demand)
+
+* Essays
+
+** Working on
+
+   [[./creation.md]]
+   
+** Ideas
+   
+   Skills: Type 90 WPM
+   Skills: Hold breath for 4 minutes
+   Skills: Do a MURPH in under 40 minutes
+   Skills: Run a 5 minute mile
+   Skills: Read 500 WPM
+   Skills: Juggling 4 balls for 2 minutes
+
+   Skill: Swimm a 20 minute mile
+   Learn to cut my own hair
+
+   Learn to play guitar
+
+   Learn to meditate
+   
+   Do ring muscle ups
+   
+   Make 90 of 100 free throws
+   
+   Learn Emacs
+
+   Learn Piano
+   
+** Finished
