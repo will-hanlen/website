@@ -13,15 +13,6 @@ html {
   --bg:  #fffcfa;
   --bg2: #ecc9be;
 
-  /* Font sizes */
-  --t1: 1rem;
-  --t2: 2rem;
-
-  /* Spacing */
-  --s: 1.5;
-  --s1: calc(var(--s) * var(--t1));
-  --s2: calc(var(--s) * var(--t2));
-
   /* Container Width */
   --width: 600px;
 }
@@ -42,7 +33,7 @@ aside, main, section, header {
   font-weight: normal;
   color: var(--fg);
 
-  font-size: calc(0.7 * 1rem);
+  font-size: calc(0.6 * 1rem);
   line-height: 1rem;
   margin-bottom: 1rem;
 
@@ -131,7 +122,7 @@ h1 {
   letter-spacing: 0.2em;
 
   margin-top: 2.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 h2 {
@@ -177,7 +168,7 @@ a:hover {
 
 /* Mobile (Default) */
 html { 
-  font-size: 19px;
+  font-size: 21px;
 }
 
 
@@ -185,7 +176,7 @@ html {
 @media (min-width: 460px) {
 
 html {
-  font-size: 21px;
+  font-size: 23px;
 }
 
 }
