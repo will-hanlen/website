@@ -98,8 +98,8 @@ h1 {
   color: var(--fg2);
   letter-spacing: 0.2em;
 
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 
@@ -140,12 +140,8 @@ nav {
   display: flex;
   justify-content: space-between;
 
-  background-color: var(--fg2);
+  border-bottom: 2px var(--fg2) solid;
   padding: 0.5rem 1rem;
-}
-
-nav a {
-  color: var(--bg);
 }
 
 
