@@ -9,6 +9,7 @@ html {
   /* Colors */
   --fg:  #121235;
   --fg2: #be5059;
+  --fg3: #6b2429;
   --bg:  #fffcfa;
   --bg2: #ecc9be;
 
@@ -124,9 +125,11 @@ p {
   text-align: justify;
 }
 
-p span {
-  color: var(--fg2);
+em {
   font-weight: bold;
+  color: var(--fg3);
+  font-style: normal;
+  /* text-decoration: underline; */
 }
 
 a {
