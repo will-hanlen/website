@@ -23,7 +23,7 @@ When we make valuable things and share them, we grow closer to a community and f
 ## 2nd order effects
 
 **Consistent creativity teaches you how to live:**
-Some skills like discipline and focus are absolutely necessary for living a fulfilling life.
+Some skills like discipline and focus are necessary for living a fulfilling life.
 Being creative requires these skills.
 Making something of value is hard work;
 It takes dedication and commitment and lots of effort.
