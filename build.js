@@ -28,31 +28,28 @@ var foot = `
 
 
 // Delete all the files from old builds
-let oldCompiled = fs.readdirSync("essays");
-for (ff of oldCompiled) {
-  fs.unlinkSync(`essays/${ff}`);
+let oldBuilds = fs.readdirSync("essays");
+for (build of oldBuilds) {
+  fs.unlinkSync(`essays/${build}`);
 }
 
 
 // Go through the src directory
 for (file of  fs.readdirSync("src")) {
 
+  // Get the markdown filename without the .md extension
   let filename = file.slice(0, file.indexOf("\."))
 
+  // Read the markdown file
   let contents = fs.readFileSync(`src/${file}`, {encoding: "utf8"});
 
-  // Use first line as document title
-  let title = contents.substr(0, contents.indexOf("\n"));
+  // Use first line as document title (without the # header symbol)
+  let title = contents.substr(2, contents.indexOf("\n"));
 
-  // make sure title doesn't have line breaks
-  while (title.indexOf("<br>") > 0) {
-    title = title.replace("<br>", "");
-  }
-
-  // put the pieces of the new HTML file together
+  // Build the new HTML file
   let newHTML = head1 + title + head2 + md.render(contents) + foot;
 
-  // Write the built file
+  // Write the new HTMl file
   fs.writeFileSync(`essays/${filename}.html`, newHTML);
 
 }
