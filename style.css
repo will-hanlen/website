@@ -112,6 +112,8 @@ h2 {
   letter-spacing: 0.05em;
 
   letter-spacing: 0.1em;
+
+  font-size: 0.7rem;
 }
 
 h3 {
@@ -125,9 +127,12 @@ p {
 
 em {
   font-style: normal;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-color: var(--fg2);
+  color: var(--fg2);
+}
+
+strong {
+  font-weight: bold;
+  color: var(--fg2);
 }
 
 a {
