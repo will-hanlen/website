@@ -38,6 +38,11 @@ aside, main, section, header {
   color: var(--fg);
 }
 
+li ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 li {
   list-style-position: inside;
 }
@@ -98,10 +103,13 @@ h1 {
   color: var(--fg2);
   letter-spacing: 0.2em;
 
+  padding: 0 50%;
+
   margin-top: 3rem;
   margin-bottom: 3rem;
 
-  word-spacing: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -174,18 +182,18 @@ html {
   font-size: 23px;
 }
 
+p {
+  text-align: justify;
+}
+
 }
 
 
 /* Desktop modifications*/
-@media (min-width: 800px) {
+@media (min-width: 705px) {
 
 html {
   font-size: 25px;
-}
-
-p {
-  text-align: justify;
 }
 
 }
