@@ -1,7 +1,5 @@
-The Creativity Necessity
-========================
-
-
+The <br> Creativity <br> Necessity
+===
 
 
 In the 21st century consuption is the default state, and creativity is no longer necessary for survial. 
@@ -10,7 +8,7 @@ We overcome this by consistently creating valuable things and sharing them with 
 
 Creativity is cooking a delicious meal, working on a car, writing computer code, anything that forces you to solve problems.
 The act of consistent creation connects us to being human, teaches us about ourselves, gives us valuable skills, and ultimately provides a path towards personal meaning.
-It is necessary for a fulfilling life
+*It is necessary for a fulfilling life.*
 
 ## 1st order benefits 
 

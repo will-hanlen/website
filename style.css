@@ -9,7 +9,6 @@ html {
   /* Colors */
   --fg:  #121235;
   --fg2: #be5059;
-  --fg3: #6b2429;
   --bg:  #fffcfa;
   --bg2: #ecc9be;
 
@@ -32,7 +31,7 @@ aside, main, section, header {
   padding: 0;
 
   font-weight: normal;
-  font-size: calc(0.55 * 1rem);
+  font-size: calc(0.6 * 1rem);
   line-height: 1rem;
 
   margin-bottom: 1rem;
@@ -56,7 +55,7 @@ body {
 
 
 article {
-  width: 95%;
+  width: 85%;
   max-width: var(--width);
   margin: auto;
   margin-bottom: 5rem;
@@ -116,20 +115,19 @@ h2 {
 }
 
 h3 {
-  /* text-transform: uppercase; */
   font-weight: bold;
   margin-bottom: 0;
 }
 
 p {
-  text-align: justify;
+  text-align: left;
 }
 
 em {
-  font-weight: bold;
-  color: var(--fg3);
   font-style: normal;
-  /* text-decoration: underline; */
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--fg2);
 }
 
 a {
@@ -181,6 +179,10 @@ html {
 
 html {
   font-size: 25px;
+}
+
+p {
+  text-align: justify;
 }
 
 }

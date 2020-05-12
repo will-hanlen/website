@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/will-hanlen/HYSYL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/will-hanlen/HYSYL/issues"
+  },
+  "homepage": "https://github.com/will-hanlen/HYSYL#readme",
+  "dependencies": {
+    "markdown-it": "^10.0.0"
+  }
+}
