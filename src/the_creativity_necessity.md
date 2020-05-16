@@ -1,6 +1,6 @@
 # The Creativity Necessity
 
-In the 21st century consumption is the default state, and creativity is no longer necessary for survival.
+In the modern world, consumption is the default state and creativity is no longer necessary for survival.
 This environment detaches us from our humanity and limits our personal growth.
 We overcome this by consistently creating valuable things and sharing them with others.
 
@@ -8,7 +8,7 @@ Creativity is cooking a delicious meal, working on a car, writing computer code,
 The act of *consistent creation connects us to being human, teaches us about ourselves, gives us valuable skills, and ultimately provides a path towards personal meaning.*
 It is necessary for a fulfilling life.
 
-## 1st order effects
+## Benefits of Creativity
 
 **Being creative makes us human:**
 Humans evolved as creative problem solvers.
@@ -17,10 +17,8 @@ Though we don't need creativity to physically survive in a world with grocery st
 
 **Creativity connects us to others:**
 It feels doubly as good when we make things that provide value for others as well as ourselves.
-All humans want to feel like a valuable contributor.
-When we make valuable things and share them, we grow closer to a community and fulfill that inner desire.
-
-## 2nd order effects
+All humans want to feel valuable, and the easiest way to do that is to create valuable things for others.
+When we make valuable things and share them, we grow closer to a community and become valuable to it.
 
 **Consistent creativity teaches you how to live:**
 Some skills like discipline and focus are necessary for living a fulfilling life.
