@@ -41,6 +41,5 @@ You can spend hundreds of hours configuring a 20% efficiency increase - which wi
 Tools and craft are separate.
 
 Tools are useful and exist for a reason, but they can trap you into thinking that better tools leads to better results.
-To get out of this trap you must separate your thinking about tools from thinking about craft.
-Then devote way more energy to craft than tools.
+To get out of this trap you must separate your thinking about tools from thinking about craft - then devote way more energy to craft than tools.
 Improving your tools is still valuable, but ensure you care about your craft before caring about your tools.
