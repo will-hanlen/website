@@ -28,15 +28,16 @@ Would-be chefs spend more time researching knives, buying them, and sharpening t
 We fall into this trap because tools are cool and often useful, but the truth is, **tools just aren't as important as we think they are.**
 A 1000 line Emacs config file and a 40% mechanical keyboard may be the most efficient programming setup in the world, but it has little impact on your ability to write quality programs.
 A high-end, hand-crafted guitar may produce the perfect sound, but has little to do with your ability to compose good music.
+The camera on your smartphone is better and cheaper than every camera that existed in 1940 but that doesn't make your TikTok cinematography rival Casablanca's.
 
 **It's easy to improve your tools but it's hard to improve your craft**, yet we often think when we upgrade our tools we are getting better at our craft.
 This is a fallacy.
 If you suck at painting, a better easel won't fix it.
 Painting more will.
 
-I think this trap is especially alluring to programmers because in the computer world all the of the best, yet most time consuming, tool traps are free.
+I think this trap is especially alluring to programmers because in the computer world, all the of the best tools are free.
 Vim and Emacs are great examples of this.
-You spend hundreds of hours configuring a 20% efficiency increase - which will make you 20% more efficient at typing things in the computer - not 20% better at making the things you type do interesting things.
+You can spend hundreds of hours configuring a 20% efficiency increase - which will make you 20% more efficient at typing things, not 20% better at making the things you type do interesting things.
 Tools and craft are separate.
 
 Tools are useful and exist for a reason, but they can trap you into thinking that better tools leads to better results.
