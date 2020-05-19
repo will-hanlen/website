@@ -1,10 +1,10 @@
 # The Creativity Necessity
 
 In the modern world, consumption is the default state and creativity is no longer necessary for survival.
-This environment detaches us from our humanity and limits our personal growth.
+I believe this environment detaches us from our humanity and limits our personal growth.
 We overcome this by consistently creating valuable things and sharing them with others.
 
-Creativity is cooking a delicious meal, working on a car, writing computer code, or anything that forces you to solve problems.
+Cooking a delicious meal, working on a car, writing computer code, or anything that forces you to solve problems is creativity.
 The act of *consistent creation connects us to being human, teaches us about ourselves, gives us valuable skills, and ultimately provides a path towards personal meaning.*
 It is necessary for a fulfilling life.
 
@@ -12,31 +12,29 @@ It is necessary for a fulfilling life.
 
 **Being creative makes us human:**
 Humans evolved as creative problem solvers.
-We feel good when we are creative because creativity helped our ancestors survive.
-Though we don't need creativity to physically survive in a world with grocery stores and Amazon, we need it to fulfill that deeply human itch.
+We feel good when we create because creativity helped our ancestors survive.
+Though we don't need creativity to physically survive in a world with grocery stores and Amazon, we need it to connect to our heritage as humans.
 
 **Creativity connects us to others:**
-It feels doubly as good when we make things that provide value for others as well as ourselves.
-All humans want to feel valuable, and the easiest way to do that is to create valuable things for others.
+Sharing the fruits of our labor is the ultimate satisfaction.
+All humans want to feel valuable, and a straight-forward way to do that is to create valuable things for others.
 When we make valuable things and share them, we grow closer to a community and become valuable to it.
 
 **Consistent creativity teaches you how to live:**
 Some skills like discipline and focus are necessary for living a fulfilling life.
 Being creative requires these skills.
-Making something of value is hard work;
-It takes dedication and commitment and lots of effort.
-If you are consistent in your creative efforts you will learn to control your mind and actions - a skill that is valuable in all aspects of life.
+Making something of value is hard work and if you are consistent in your creative efforts you will learn to control your mind and actions - a skill that is valuable in all aspects of life.
 
 **Creativity teaches you about yourself:**
-Nobody is born knowing their passions, and you don't find it by exclusively consuming what others have done.
-Failures are inevitable but necessary for growth.
+Nobody is born knowing their passions, and you don't find it by consuming what others have done.
+Being truly passionate about something requires hours of work where failures are inevitable but necessary for growth.
 The more you try the more you will understand yourself.
 *Passions are not found, they are built.*
 
 ## Getting the most out of creativity
 
 Not all creations are useful.
-You're 10th grade book report on a book you didn't read probably didn't help you find you life's meaning.
+Your 10th grade book report on a book you didn't read probably didn't help you find you life's meaning.
 Neither did the half-finished painting in your closet or the premade freezer meals you made for dinner.
 
 **Deliberately choose where to be creative:**

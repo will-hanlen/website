@@ -9,7 +9,7 @@ html {
   /* Colors */
   --fg:  #121235;
   --fg2: #be5059;
-  --bg:  #fffcfa;
+  --bg:  #fff9f7;
   --bg2: #ecc9be;
 
   /* Container Width */
@@ -49,6 +49,7 @@ li {
 
 body {
   font-family: 'DM Mono', monospace;
+  background-color: var(--bg);
 }
 
 
