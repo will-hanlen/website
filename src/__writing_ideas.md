@@ -17,6 +17,12 @@ Lists of topics I want to explore.
   - things that are unforgiving
   - things that you can't fake
   - pullups
+- Creativity's relationship with unforgiving tasks
+- communicating with an audience
+- being enthusiastic is worth 25 IQ points (Kevin Kelly)
+- Time is the only valuable resource, we can't save it, everything else is a proxy for that
+- Play stupid games, win stupid prizes
+- I'm afraid of writing
 
 ## Productivity and Technology
 

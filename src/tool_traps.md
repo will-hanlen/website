@@ -13,7 +13,7 @@ My toolkit would be complete if only my operating system could talk to God.
 
 Welcome to tool hell.
 If you're like me you've been here before.
-It's the place where you'll never be productive again because instead of doing real work, you write config files to manipulate the program you think you will eventually do work in.
+It's a place where you'll never be productive again because instead of doing real work, you write config files to manipulate the program you think you will eventually do work in.
 You might even publish your config files thinking you are creating something valuable.
 Hours and hours are spent planning the perfect workflow instead of actually having a workflow.
 
@@ -32,6 +32,6 @@ This is a fallacy.
 If you suck at painting, a better easel won't fix it.
 Painting more will.
 
-Tools are useful and exist for a reason, but they can trap you into thinking that better tools lead to better results.
+Tools exist for a reason, but they can trap you into thinking that better tools lead to better results.
 To get out of this trap you must separate thinking about tools from thinking about craft - then devote way more energy to craft than to tools.
 Improving your tools is still valuable, but ensure you care about your craft before caring about your tools.

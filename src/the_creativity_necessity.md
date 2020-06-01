@@ -34,7 +34,7 @@ The more you try the more you will understand yourself.
 ## Getting the most out of creativity
 
 Not all creations are useful.
-Your 10th grade book report on a book you didn't read probably didn't help you find you life's meaning.
+Your 10th grade book report on a book you didn't read probably didn't help you find your life's meaning.
 Neither did the half-finished painting in your closet or the premade freezer meals you made for dinner.
 
 **Deliberately choose where to be creative:**
