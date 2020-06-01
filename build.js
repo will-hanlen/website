@@ -28,9 +28,9 @@ var foot = `
 </html>`
 
 // Delete all the files from old builds
-let oldBuilds = fs.readdirSync("essays");
+let oldBuilds = fs.readdirSync("public/essays");
 for (build of oldBuilds) {
-  fs.unlinkSync(`essays/${build}`);
+  fs.unlinkSync(`public/essays/${build}`);
 }
 
 // Go through the src directory
@@ -52,7 +52,7 @@ for (file of  fs.readdirSync("src")) {
     let newHTML = head1 + title + head2 + md.render(contents) + foot;
 
     // Write the new HTMl file
-    fs.writeFileSync(`essays/${filename}.html`, newHTML);
+    fs.writeFileSync(`public/essays/${filename}.html`, newHTML);
 
   }
 }
