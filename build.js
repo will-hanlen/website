@@ -27,11 +27,13 @@ var foot = `
 </body>
 </html>`
 
-// Delete all the files from old builds
-let oldBuilds = fs.readdirSync("public/essays");
-for (build of oldBuilds) {
-  fs.unlinkSync(`public/essays/${build}`);
+// Delete the essays directory
+if (fs.existsSync('public/essays')) {
+  fs.rmdirSync('public/essays')
 }
+
+// Create a new, blank essays directory
+fs.mkdirSync("public/essays")
 
 // Go through the src directory
 for (file of  fs.readdirSync("src")) {
