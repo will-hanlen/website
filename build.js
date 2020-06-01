@@ -1,4 +1,4 @@
-var md = require('markdown-it')({html: true});
+var md = require('markdown-it')();
 var fs = require('fs');
 
 // Template
@@ -19,13 +19,13 @@ var head2 = `
 <body>
   <nav><a href="../index.html">← more essays</a></nav>
   <article>
-  
+ 
   `
+
 var foot = `
   </article>
 </body>
 </html>`
-
 
 // Delete all the files from old builds
 let oldBuilds = fs.readdirSync("essays");
@@ -33,24 +33,26 @@ for (build of oldBuilds) {
   fs.unlinkSync(`essays/${build}`);
 }
 
-
 // Go through the src directory
 for (file of  fs.readdirSync("src")) {
 
-  // Get the markdown filename without the .md extension
-  let filename = file.slice(0, file.indexOf("\."))
+  // Ignore files that have underscores at the beginning
+  if (file[0] != "_") {
 
-  // Read the markdown file
-  let contents = fs.readFileSync(`src/${file}`, {encoding: "utf8"});
+    // Get the markdown filename without the .md extension
+    let filename = file.slice(0, file.indexOf("\."))
 
-  // Use first line as document title (without the # header symbol)
-  let title = contents.substr(2, contents.indexOf("\n"));
+    // Read the markdown file
+    let contents = fs.readFileSync(`src/${file}`, {encoding: "utf8"});
 
-  // Build the new HTML file
-  let newHTML = head1 + title + head2 + md.render(contents) + foot;
+    // Use first line as document title (without the # header symbol)
+    let title = contents.substr(2, contents.indexOf("\n"));
 
-  // Write the new HTMl file
-  fs.writeFileSync(`essays/${filename}.html`, newHTML);
+    // Build the new HTML file
+    let newHTML = head1 + title + head2 + md.render(contents) + foot;
 
+    // Write the new HTMl file
+    fs.writeFileSync(`essays/${filename}.html`, newHTML);
+
+  }
 }
-
