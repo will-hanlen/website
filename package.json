@@ -1,22 +1,23 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal Website",
   "main": "index.js",
   "scripts": {
     "build": "node build.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/will-hanlen/HYSYL.git"
+    "url": "git+https://github.com/will-hanlen/website.git"
   },
-  "author": "",
+  "author": "Will Hanlen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/will-hanlen/HYSYL/issues"
+    "url": "https://github.com/will-hanlen/website/issues"
   },
-  "homepage": "https://github.com/will-hanlen/HYSYL#readme",
+  "homepage": "https://willhanlen.com",
   "dependencies": {
-    "markdown-it": "^10.0.0"
+    "markdown-it": "^10.0.0",
+    "vercel": "^19.0.1"
   }
 }
