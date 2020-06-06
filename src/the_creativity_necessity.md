@@ -38,7 +38,7 @@ Your 10th grade book report on a book you didn't read probably didn't help you f
 Neither did the half-finished painting in your closet or the premade freezer meals you made for dinner.
 
 **Deliberately choose where to be creative:**
-Not every aspect of you life needs to be overflowing with inspiration and creativity.
+Not every aspect of your life needs to be overflowing with inspiration and creativity.
 Sometimes the easy freezer meal is better than crafting a gourmet feast because it lets you focus on being creative in the places that matter to you.
 Try a bunch of creative things out, then narrow down to a few areas where you want to be creative and focus on being great in those.
 
@@ -56,7 +56,7 @@ Constrain yourself to start with the most fundamental tools and processes you ca
 
 **Create with others:**
 Collaborating makes us better and makes the process more fun.
-We learn quicker around others, we feel connected to a community of like minded people, and we are kept accountable for progress and quality.
+We learn quicker around others, we feel connected to a community of like-minded people, and we are kept accountable for progress and quality.
 
 **Be consistent:**
 To get the benefits of creativity you have to strain and improve every day.
