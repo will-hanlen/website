@@ -14,8 +14,8 @@
     <!-- Description -->
     <description>A guy testing out a podcast RSS feed</description>
 
-    <!-- Image -->
-    <itunes:image>https://willhanlen.com/podcast/image.jpg</itunes:image>
+    <!-- Cover Image -->
+    <itunes:image href="https://willhanlen.com/podcast/image.jpg" />
     
     <!-- Language -->
     <language>en-us</language>
@@ -26,12 +26,29 @@
     <!-- Owner -->
     <itunes:owner>
       <itunes:email>will.hanlen@gmail.com</itunes:email>
+			<itunes:name>Will Hanlen</itunes:name>
     </itunes:owner>
 
+    <!-- Keywords -->
+    <itunes:keywords>business,science,productivity,mindfulness</itunes:keywords>
 
-    <!-- ======== -->
-    <!-- Episodes -->
-    <!-- ======== -->
+    <!-- Categories -->
+		<itunes:category text="Business"></itunes:category>
+		<itunes:category text="Education"></itunes:category>
+		<itunes:category text="Health"></itunes:category>
+
+
+
+
+
+
+    <!-- ================================== -->
+    <!-- =========== Episodes ============= -->
+    <!-- ================================== -->
+
+
+
+
 
     <!-- The Sound of Fury -->
     <item>
@@ -44,6 +61,7 @@
       <itunes:duration>18</itunes:duration>
     </item>
 
+
     <!-- True Crime -->
     <item>
       <title>True Crime</title>
@@ -54,6 +72,13 @@
                  type="audio/mpeg" length="15762621"/>
       <itunes:duration>1:06</itunes:duration>
     </item>
+
+
+
+
+
+
+
   </channel>
 </rss>
 
