@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+
 <rss version="2.0"
     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
@@ -9,18 +10,12 @@
 
     <!-- Author -->
     <itunes:author>Will</itunes:author>
-    <googleplay:author>Will</googleplay:author>
 
     <!-- Description -->
     <description>A guy testing out a podcast RSS feed</description>
 
     <!-- Image -->
     <itunes:image>https://willhanlen.com/podcast/image.jpg</itunes:image>
-    <image>
-      <link>https://willhanlen.com/podcast</link>
-      <title>Podcast</title> <!-- must match the title element of the podcast homepage -->
-      <url>https://willhanlen.com/podcast/image.jpg</url>
-    </image>
     
     <!-- Language -->
     <language>en-us</language>
@@ -28,10 +23,9 @@
     <!-- Homepage -->
     <link>https://willhanlen.com/podcast</link>
 
-    <!-- Ownder -->
-    <googleplay:owner>will@yourmom.com</googleplay:owner>
+    <!-- Owner -->
     <itunes:owner>
-      <itunes:email>will@yourmom.com</itunes:email>
+      <itunes:email>will.hanlen@gmail.com</itunes:email>
     </itunes:owner>
 
 
@@ -42,6 +36,7 @@
     <!-- The Sound of Fury -->
     <item>
       <title>The Sound of Fury</title>
+      <guid>20200626</guid>
       <description>Just a test podcast for the boys, ya know?</description>
       <pubDate>Fri, 26 Jun 2020 12:00:00 GMT</pubDate>
       <enclosure url="https://willhanlen.com/podcast/episodes/1.mp3"
@@ -52,6 +47,7 @@
     <!-- True Crime -->
     <item>
       <title>True Crime</title>
+      <guid>20200618</guid>
       <description>Gotta catch the bad ones</description>
       <pubDate>Thu, 18 Jun 2020 12:00:00 GMT</pubDate>
       <enclosure url="https://willhanlen.com/podcast/episodes/2.mp3"
