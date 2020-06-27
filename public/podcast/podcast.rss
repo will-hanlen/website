@@ -15,6 +15,7 @@
     <description>A guy testing out a podcast RSS feed</description>
 
     <!-- Image -->
+    <itunes:image>https://willhanlen.com/podcast/image.jpg</itunes:image>
     <image>
       <link>https://willhanlen.com/podcast</link>
       <title>Podcast</title> <!-- must match the title element of the podcast homepage -->
@@ -26,6 +27,12 @@
 
     <!-- Homepage -->
     <link>https://willhanlen.com/podcast</link>
+
+    <!-- Ownder -->
+    <googleplay:owner>will@yourmom.com</googleplay:owner>
+    <itunes:owner>
+      <itunes:email>will@yourmom.com</itunes:email>
+    </itunes:owner>
 
 
     <!-- ======== -->
@@ -39,15 +46,17 @@
       <pubDate>Fri, 26 Jun 2020 12:00:00 GMT</pubDate>
       <enclosure url="https://willhanlen.com/podcast/episodes/1.mp3"
                  type="audio/mpeg" length="764176"/>
+      <itunes:duration>18</itunes:duration>
     </item>
 
     <!-- True Crime -->
     <item>
       <title>True Crime</title>
       <description>Gotta catch the bad ones</description>
-      <pubDate>Fri, 19 Jun 2020 12:00:00 GMT</pubDate>
+      <pubDate>Thu, 18 Jun 2020 12:00:00 GMT</pubDate>
       <enclosure url="https://willhanlen.com/podcast/episodes/2.mp3"
                  type="audio/mpeg" length="15762621"/>
+      <itunes:duration>1:06</itunes:duration>
     </item>
   </channel>
 </rss>
