@@ -1,15 +1,16 @@
 # Tool Traps
 
-Tools are the most dangerous risk to my productivity.
+Sometimes, the most dangerous risks to my productivity are my own tools.
 
-As a programmer, the trap started by learning about Vim.
+As a programmer, the trap started when I learned about Vim.
 I started learning to do my budget, meal planning, and image editing in plaintext.
-I installed Linux and a tiling window manager to get away from the mouse-based nonsense regular people use.
+
+Next, I installed Linux and a tiling window manager to get away from the mouse-based nonsense regular people use.
 I threw out my Python codebases and did everything in C.
+
 I made a standing desk and got two plants in white porcelain pots.
 The RGB colors on my custom mechanical keyboard synced perfectly with my room's ambient lighting.
 Emacs lurked just around the corner and started whispering beautiful ELisp in my ear.
-My toolkit would be complete if only my operating system could talk to God.
 
 Welcome to tool hell.
 If you're like me you've been here before.
