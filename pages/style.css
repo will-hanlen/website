@@ -4,16 +4,18 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+
 html {
 
   /* Colors */
   --fg:  #121235;
-  --fg2: #ce4049;
+  --fg2: #a3262e;
   --bg:  #fffefd;
   --bg2: #ecc9be;
 
   /* Container Width */
-  --width: 600px;
+  --width: 20rem;
 }
 
 
@@ -36,6 +38,7 @@ aside, main, section, header {
 
   margin-bottom: 1rem;
   color: var(--fg);
+  -webkit-appearance: menulist-button;
 }
 
 li ul {
@@ -65,6 +68,7 @@ article {
   max-width: var(--width);
   margin: auto;
   margin-bottom: 5rem;
+
 }
 
 ul, ol, blockquote, .indented, img {
@@ -91,6 +95,7 @@ img {
 
 ::selection {
   background-color: var(--bg2);
+  -webkit-appearance: menulist-button;
 }
 
 h1 {
@@ -98,24 +103,26 @@ h1 {
   line-height: 1rem;
   font-weight: bold;
 
-  text-align: center;
+  text-align: left;
 
   text-transform: uppercase;
+  text-shadow: 0 0 1.5px var(--fg2);
   color: var(--fg2);
   letter-spacing: 0.2em;
 
-  padding: 0 50%;
+  padding: 0 100% 0 0;
 
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 
 h2 {
-  text-align: center;
+  text-shadow: 0 0 1.2px var(--fg);
+  text-align: left;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 2rem;
@@ -130,6 +137,7 @@ h3 {
 
 p {
   text-align: left;
+  text-shadow: 0 0 0.5px var(--fg);
 }
 
 em {
@@ -144,11 +152,24 @@ strong {
 
 a {
   color: var(--fg2);
+  text-shadow: 0 0 1px var(--fg2);
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+hr {
+  display: block;
+  height: 0.1rem;
+  box-sizing: border-box;
+  width: 50%;
+  background-color: var(--fg2);
+  border: none;
+  margin-top: 1.45rem;
+  margin-bottom: 2.45rem;
+  margin-left: 0;
 }
 
 nav {
@@ -162,6 +183,15 @@ nav {
   padding: 0.5rem 1rem;
 }
 
+.subtitle {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  color: #666;
+  display: block;
+  padding: 0;
+  width: 70%;
+}
+
 
 
 /*===================================================
@@ -172,7 +202,7 @@ nav {
 
 /* Mobile (Default) */
 html { 
-  font-size: 21px;
+  font-size: 25px;
 }
 
 
@@ -180,12 +210,12 @@ html {
 @media (min-width: 460px) {
 
 html {
-  font-size: 23px;
+  font-size: 27px;
 }
 
-p {
+/* p {
   text-align: justify;
-}
+} */
 
 }
 
@@ -194,7 +224,16 @@ p {
 @media (min-width: 705px) {
 
 html {
-  font-size: 25px;
+  font-size: 30px;
+}
+
+article {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: max(100px, calc((100vw / 2) - (var(--width) / 2) - 13vw ));
+  margin-right: 100px;
+  /* margin-right */
 }
 
 }
