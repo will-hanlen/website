@@ -27,7 +27,6 @@ export default function BlogLayout( { metadata, children } ) {
             </Head>
 
             <article>
-                {/* <a href="../">&lt; wiha.dev</a> */}
                 <Header />
 
                 { title }

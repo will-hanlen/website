@@ -26,3 +26,25 @@ export async function getEssayContent(slug) {
         mdxSource
     }
 }
+
+export async function getSummaries() {
+    const filenames = fs.readdirSync('_src')
+
+    const summaries = []
+
+    for (let i = 0; i < filenames.length; i++) {
+        const file = fs.readFileSync('_src/' + filenames[i], 'utf-8')
+        
+        const { data: metadata } = matter(file)
+
+        summaries.push({
+            ...metadata,
+            slug: filenames[i].replace(/\.mdx/, '')
+        })
+    }
+
+    console.log(summaries)
+
+    return summaries
+
+}

@@ -1,4 +1,5 @@
 import css from 'styled-jsx/css'
+import HomepageLink from './HomepageLink'
 
 const styles = css`
 a {
@@ -9,9 +10,10 @@ a {
 `
 
 export default function Header() {
+
     return (
         <>
-            <a href="../">wiha.dev</a>
+            <HomepageLink />
             <style jsx>{ styles }</style>
         </>
     )
