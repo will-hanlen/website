@@ -18,7 +18,7 @@ export default function H23 ( {summaries}) {
         <article>
 
         <h1>{root}</h1>
-        <p>A collection of essays by some dude.</p>
+        <p>My summary of life, and how to live it.</p>
         <Sters/>
         {summaries.map( (md, i) => {
             return (
