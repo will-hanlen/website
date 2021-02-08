@@ -43,8 +43,6 @@ export async function getSummaries() {
         })
     }
 
-    console.log(summaries)
-
     return summaries
 
 }

@@ -2,20 +2,33 @@
 --------------------- Variables ---------------------
 ===================================================*/
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/fonts/FiraCode.woff2') format('woff2');
+  font-weight: 100 900; 
+  font-style: normal;
+  font-display: swap;
+}
 
 html {
 
+  font-size: clamp(24px, calc(15px + 2vw), 33px);
+
   /* Colors */
-  --fg:  #121235;
+  --fg1r: 18;
+  --fg1g: 18;
+  --fg1b: 53;
+  --fg:  rgb(var(--fg1r), var(--fg1g), var(--fg1b));
   --fg2: #a3262e;
   --bg:  #fffefd;
   --bg2: #ecc9be;
 
   /* Container Width */
-  --width: 20rem;
+  --width: 22rem;
+
+  --font-face: 'FiraCode', monospace;
+  --font-weight: 900;
+
 }
 
 
@@ -26,13 +39,13 @@ html {
 
 
 
-html, body, h1, h2, h3, p, ol,
+body, h1, h2, h3, p, ol,
 ul, div, span, article,
 aside, main, section, header {
   margin: 0;
   padding: 0;
 
-  font-weight: normal;
+  font-weight: 450;
   font-size: calc(0.6 * 1rem);
   line-height: 1rem;
 
@@ -46,11 +59,11 @@ li ul {
 }
 
 li {
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 body {
-  font-family: 'DM Mono', monospace;
+  font-family: var(--font-face);
   background-color: var(--bg);
 }
 
@@ -71,8 +84,9 @@ article {
 }
 
 ul, ol, blockquote, .indented, img {
-  margin: 1rem;
+  margin-left: 4ch;
 }
+
 
 img {
   width: calc(100% - 2rem);
@@ -90,24 +104,56 @@ img {
 -------------------- Components ---------------------
 ===================================================*/
 
+a, .clickable {
+  color: var(--fg);
+  text-decoration: none;
+  transition-property: background-position;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  background-image: linear-gradient(to bottom, var(--bg2) 0%, var(--bg2) 100%);
+  background-origin: content-box;
+  background-position: 0 0.68rem;
+  background-repeat: repeat-x;
+  background-size: 100% 100%;
+}
 
+a:hover {
+  /* font-weight: 600; */
+  /* background-color: var(--bg2); */
+  background-position: 0 0;
+}
+
+/* a::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 0.05rem;
+  bottom: 0;
+  left: 0;
+  background-color: var(--fg2);
+  transition: all 0.3s ease-out 0s;
+}
+
+a:hover::before {
+  height: 0.8rem;
+  background-color: var(--bg2);
+} */
 
 ::selection {
   background-color: var(--bg2);
-  -webkit-appearance: menulist-button;
 }
 
 h1 {
   font-size: 0.9rem;
   line-height: 1rem;
-  font-weight: bold;
+  font-weight: 600;
 
   text-align: left;
 
   text-transform: uppercase;
-  text-shadow: 0 0 1.5px var(--fg2);
   color: var(--fg2);
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
 
   padding: 0 100% 0 0;
 
@@ -120,10 +166,9 @@ h1 {
 
 
 h2 {
-  text-shadow: 0 0 1.2px var(--fg);
   text-align: left;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   margin-top: 2rem;
   letter-spacing: 0.1em;
   font-size: 0.7rem;
@@ -136,27 +181,20 @@ h3 {
 
 p {
   text-align: left;
-  text-shadow: 0 0 0.5px var(--fg);
 }
 
-em {
-  font-style: normal;
+em, strong {
+  font-weight: 520;
   color: var(--fg2);
 }
 
-strong {
-  font-weight: bold;
-  color: var(--fg2);
+nav ul {
+    list-style-type: none;
+    margin: 0;
 }
 
-a {
-  color: var(--fg2);
-  text-shadow: 0 0 1px var(--fg2);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+.tabbed {
+  padding-left: 1ch;
 }
 
 hr {
@@ -171,7 +209,7 @@ hr {
   margin-left: 0;
 }
 
-nav {
+/* nav {
   width: 100%;
 
   box-sizing: border-box;
@@ -180,6 +218,10 @@ nav {
 
   border-bottom: 2px var(--fg2) solid;
   padding: 0.5rem 1rem;
+} */
+
+li p {
+  margin-bottom: 0;
 }
 
 .subtitle {
@@ -205,27 +247,26 @@ nav {
 
 
 /* Mobile (Default) */
-html { 
+/* html { 
   font-size: 25px;
-}
+} */
 
-
-/* Tablet modifications*/
+/* 
 @media (min-width: 460px) {
 
 html {
   font-size: 27px;
-}
+} */
 
 /* p {
   text-align: justify;
 } */
 
-}
+/* } */
 
 
 /* Desktop modifications*/
-@media (min-width: 705px) {
+/* @media (min-width: 705px) {
 
 html {
   font-size: 30px;
@@ -237,7 +278,6 @@ article {
   margin-bottom: 0;
   margin-left: max(100px, calc((100vw / 2) - (var(--width) / 2) - 13vw ));
   margin-right: 100px;
-  /* margin-right */
 }
 
-}
+} */

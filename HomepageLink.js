@@ -7,6 +7,6 @@ export default function HomepageLink() {
         setRoot(window.location.hostname)
     })
     return (
-        <a href="../">&lt; {root}</a>
+        <a href="../">{root}</a>
     )
 }

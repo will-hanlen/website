@@ -1,11 +1,11 @@
 import {
     getPublishedEssaySlugs,
     getEssayContent,
-} from '../util'
+} from '../../util'
 
 import hydrate from 'next-mdx-remote/hydrate'
 
-import BlogLayout from '../Layout'
+import BlogLayout from '../../Layout'
 
 // imprt Head
 

@@ -1,7 +1,28 @@
 import  Head  from 'next/head'
 import Sters from './Sters'
-import Footer from './Footer'
 import Header from './Header'
+import css from 'styled-jsx/css'
+
+const styles = css`
+
+.fancy {
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto;
+    grid-template-columns 1fr min(var(--width), 85%) 2fr;
+    grid-template-areas: "dummy content d2";
+}
+
+article {
+    grid-area: content;
+}
+
+#top-link {
+    margin-top: 0.2rem;
+}
+
+
+`
 
 export default function BlogLayout( { metadata, children } ) {
 
@@ -21,24 +42,33 @@ export default function BlogLayout( { metadata, children } ) {
     
 
     return (
-        <>
+        <div className="fancy">
             <Head>
                 <title>{metadata.title}</title>
             </Head>
 
             <article>
-                <Header />
+                <div id="top-link">
+                    <a href="../" id="top-link">Homepage</a>
+                </div>
 
                 { title }
                 { description }
                 <Sters />
-                <div>
-                    { children }
-                </div>
+
+                { children }
+
                 <Sters />
-                { date }
-                <Footer/>
+
+                <nav>
+                    <ul>
+                        <li><a href="../">All writing</a></li>
+                        <li><a href="/">Homepage</a></li>
+                        <li><a href="/about">About</a></li>
+                    </ul>
+                </nav>
             </article>
-        </>
+            <style jsx>{styles}</style>
+        </div>
     )
 }
