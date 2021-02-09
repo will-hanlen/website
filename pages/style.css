@@ -24,7 +24,7 @@ html {
   --bg2: #ecc9be;
 
   /* Container Width */
-  --width: 22rem;
+  --width: 24rem;
 
   --font-face: 'FiraCode', monospace;
   --font-weight: 900;
@@ -83,8 +83,16 @@ article {
 
 }
 
-ul, ol, blockquote, .indented, img {
-  margin-left: 4ch;
+blockquote, .indented, img {
+  margin-left: 2ch;
+}
+
+ul {
+  margin-left: 1ch;
+}
+
+ol {
+  margin-left: 3ch;
 }
 
 
@@ -170,8 +178,17 @@ h2 {
   text-transform: uppercase;
   font-weight: 600;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   letter-spacing: 0.1em;
   font-size: 0.7rem;
+}
+
+table {
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
 }
 
 h3 {
@@ -183,9 +200,12 @@ p {
   text-align: left;
 }
 
-em, strong {
-  font-weight: 520;
-  color: var(--fg2);
+strong {
+  font-weight: 580;
+}
+
+em {
+  font-style: italic;
 }
 
 nav ul {
@@ -209,75 +229,15 @@ hr {
   margin-left: 0;
 }
 
-/* nav {
-  width: 100%;
-
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-
-  border-bottom: 2px var(--fg2) solid;
-  padding: 0.5rem 1rem;
-} */
-
-li p {
-  margin-bottom: 0;
-}
-
-.subtitle {
-  margin-top: -1rem;
+article li p:first-child {
   margin-bottom: 1rem;
-  color: #666;
-  display: block;
-  padding: 0;
-  width: 70%;
-}
-
-.date {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #888;
 }
 
 
-/*===================================================
------------------ Responsive Layout -----------------
-===================================================*/
-
-
-
-/* Mobile (Default) */
-/* html { 
-  font-size: 25px;
-} */
-
-/* 
-@media (min-width: 460px) {
-
-html {
-  font-size: 27px;
-} */
-
-/* p {
-  text-align: justify;
-} */
-
-/* } */
-
-
-/* Desktop modifications*/
-/* @media (min-width: 705px) {
-
-html {
-  font-size: 30px;
+article > ul li::marker {
+  content: "-";
 }
 
-article {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: max(100px, calc((100vw / 2) - (var(--width) / 2) - 13vw ));
-  margin-right: 100px;
+article > ul li {
+  padding-left: 1ch;
 }
-
-} */

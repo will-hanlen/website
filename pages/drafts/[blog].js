@@ -5,7 +5,7 @@ import {
 
 import hydrate from 'next-mdx-remote/hydrate'
 
-import BlogLayout from '../../Layout'
+import DraftLayout from '../../DraftLayout'
 
 // imprt Head
 
@@ -13,14 +13,14 @@ export default function Blog ( { metadata, mdxSource } ) {
 
     const content = hydrate(mdxSource)
 
-    return <BlogLayout metadata={metadata} >{ content }</BlogLayout>
+    return <DraftLayout metadata={metadata} >{ content }</DraftLayout>
 }
 
 export async function getStaticProps( { params} ) {
 
     const slug = params.blog
 
-    const post = await getEssayContent('published', slug)
+    const post = await getEssayContent('drafts', slug)
 
     return {
         props: post
@@ -30,7 +30,7 @@ export async function getStaticProps( { params} ) {
 
 export async function getStaticPaths() {
 
-    const posts = await getEssaySlugs('published')
+    const posts = await getEssaySlugs('drafts')
 
     return {
         paths: posts.map( post => {

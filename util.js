@@ -1,18 +1,22 @@
 import fs from 'fs'
+import path from 'path'
 import matter from 'gray-matter'
 import renderToString from 'next-mdx-remote/render-to-string';
 
 
-export async function getPublishedEssaySlugs() {
-  const filenames = fs.readdirSync('_src');
-  return filenames.map( fn => (
-      fn.replace(/\.mdx/, '')
-  ))
+export async function getEssaySlugs(type) {
+    const dir = path.join('src', type)
+    const filenames = fs.readdirSync(dir);
+    return filenames.map( fn => (
+        fn.replace(/\.mdx/, '')
+    ))
 }
 
-export async function getEssayContent(slug) {
+export async function getEssayContent(type, slug) {
 
-    const rawFile = fs.readFileSync('_src/' + slug + '.mdx', 'utf-8')
+    const filename = path.join('src', type, (slug + '.mdx'))
+
+    const rawFile = fs.readFileSync(filename, 'utf-8')
 
     const { data: metadata, content: markdown } = matter(rawFile)
 
@@ -20,29 +24,41 @@ export async function getEssayContent(slug) {
 
     return {
         metadata: {
-            wordCount: 1500,
             ...metadata,
         },
         mdxSource
     }
 }
 
-export async function getSummaries() {
-    const filenames = fs.readdirSync('_src')
+export async function getEssayMetadata(type) {
 
-    const summaries = []
+    const dir = path.join('src', type)
 
-    for (let i = 0; i < filenames.length; i++) {
-        const file = fs.readFileSync('_src/' + filenames[i], 'utf-8')
+    const files = fs.readdirSync(dir)
+
+    const datum = []
+
+    for (let i = 0; i < files.length; i++) {
+        const file = fs.readFileSync(path.join(dir, files[i]), 'utf-8')
         
         const { data: metadata } = matter(file)
 
-        summaries.push({
-            ...metadata,
-            slug: filenames[i].replace(/\.mdx/, '')
+        const lastReview = metadata.lastReview || null
+
+        const title = metadata.title || "No title"
+
+        const description = metadata.description || null
+
+        const slug = files[i].replace(/\.mdx/, '')
+
+        datum.push({
+            title,
+            description,
+            lastReview,
+            slug,
         })
     }
 
-    return summaries
+    return datum
 
 }

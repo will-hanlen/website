@@ -24,13 +24,9 @@ article {
 
 `
 
-export default function BlogLayout( { metadata, children } ) {
+export default function DraftLayout( { metadata, children } ) {
 
-    const hr = <h2>* * *</h2>
-
-    const title = metadata.title ? <h1>{ metadata.title }</h1> : null
-
-    const date = metadata.date ? <p>Published: { metadata.date}</p> : null
+    const title = metadata.title
 
     const description = metadata.description ? 
         ( <>
@@ -49,10 +45,12 @@ export default function BlogLayout( { metadata, children } ) {
 
             <article>
                 <div id="top-link">
-                    <a href="../" id="top-link">Homepage</a>
+                    <a href="/drafts" id="top-link">Back to console</a>
                 </div>
 
-                { title }
+                <p><strong>&lt; &lt; Draft &gt; &gt;</strong></p>
+
+                <h1>{ title }</h1>
                 { description }
                 <Sters />
 

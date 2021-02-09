@@ -1,5 +1,5 @@
 import {
-    getSummaries,
+    getEssayMetadata,
 } from '../../util'
 
 import {
@@ -31,7 +31,6 @@ export default function H23 ( {summaries}) {
                 <div key={i}>
 
                         <a href={`/writing/${md.slug}`}>
-                            {/* <em>{md.title}</em> */}
                             {md.title}
                         </a>
                     <p>
@@ -47,7 +46,7 @@ export default function H23 ( {summaries}) {
 
 export async function getStaticProps() {
 
-    const summaries = await getSummaries()
+    const summaries = await getEssayMetadata('published')
 
     return {
         props: {
