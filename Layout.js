@@ -64,7 +64,6 @@ export default function BlogLayout( { metadata, children } ) {
                     <ul>
                         <li><a href="../">All writing</a></li>
                         <li><a href="/">Homepage</a></li>
-                        <li><a href="/about">About</a></li>
                     </ul>
                 </nav>
             </article>
