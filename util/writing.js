@@ -4,17 +4,17 @@ import matter from 'gray-matter'
 import renderToString from 'next-mdx-remote/render-to-string';
 
 
-export async function getEssaySlugs(type) {
-    const dir = path.join('src', type)
+export async function getEssaySlugs() {
+    const dir = path.join('src')
     const filenames = fs.readdirSync(dir);
     return filenames.map( fn => (
         fn.replace(/\.mdx/, '')
     ))
 }
 
-export async function getEssayContent(type, slug) {
+export async function getEssayContent(slug) {
 
-    const filename = path.join('src', type, (slug + '.mdx'))
+    const filename = path.join('src', (slug + '.mdx'))
 
     const rawFile = fs.readFileSync(filename, 'utf-8')
 
@@ -30,9 +30,11 @@ export async function getEssayContent(type, slug) {
     }
 }
 
-export async function getEssayMetadata(type) {
+export async function getEssayMetadata(include_drafts) {
 
-    const dir = path.join('src', type)
+    include_drafts = include_drafts || false
+
+    const dir = path.join('src')
 
     const files = fs.readdirSync(dir)
 
@@ -43,6 +45,8 @@ export async function getEssayMetadata(type) {
         
         const { data: metadata } = matter(file)
 
+        const published = metadata.published || false
+
         const lastReview = metadata.lastReview || null
 
         const title = metadata.title || "No title"
@@ -51,12 +55,14 @@ export async function getEssayMetadata(type) {
 
         const slug = files[i].replace(/\.mdx/, '')
 
-        datum.push({
-            title,
-            description,
-            lastReview,
-            slug,
-        })
+        if (include_drafts || published) {
+            datum.push({
+                title,
+                description,
+                lastReview,
+                slug,
+            })
+        }
     }
 
     return datum

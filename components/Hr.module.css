@@ -1,7 +1,5 @@
-import css from 'styled-jsx/css'
-
-const styles = css`
-.stars {
+hr.double {
+    border: none;
     --hr-line-width: 9%;
     --hr-line-gap: 12%;
 
@@ -13,7 +11,6 @@ const styles = css`
 
     display: block;
     height: 1rem;
-    width: 15rem;
     width: 100%;
     background-image: linear-gradient(
         to bottom,
@@ -31,13 +28,27 @@ const styles = css`
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-`
 
-export default function Sters() {
-    return (
-        <>
-            <span className="stars"></span>
-            <style jsx>{ styles }</style>
-        </>
-    )
+hr.single {
+    border: none;
+
+    --hr-line-width: 9%;
+
+    --l1-start: calc(50% - ( var(--hr-line-width) / 2 ));
+    --l1-end: calc(50% + ( var(--hr-line-width) / 2 ));
+
+    display: block;
+    height: 1rem;
+    width: 100%;
+    background-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent var(--l1-start),
+        var(--fg2) var(--l1-start),
+        var(--fg2) var(--l1-end),
+        transparent var(--l1-end),
+        transparent 100%
+    );
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

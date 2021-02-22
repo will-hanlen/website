@@ -1,6 +1,5 @@
 import  Head  from 'next/head'
-import Sters from './Sters'
-import Header from './Header'
+import Hr from './Hr'
 import css from 'styled-jsx/css'
 
 const styles = css`
@@ -10,7 +9,7 @@ const styles = css`
     width: 100%;
     grid-template-rows: auto;
     grid-template-columns 1fr min(var(--width), 95%) 2fr;
-    grid-template-areas: "dummy content d2";
+    grid-template-areas: ". content .";
 }
 
 article {
@@ -20,27 +19,18 @@ article {
 #top-link {
     margin-top: 0.2rem;
 }
-
-
 `
 
-export default function BlogLayout( { metadata, children } ) {
-
-    const hr = <h2>* * *</h2>
+export default function EssayLayout( { metadata, children } ) {
 
     const title = metadata.title ? <h1>{ metadata.title }</h1> : null
-
-    const date = metadata.date ? <p>Published: { metadata.date}</p> : null
 
     const description = metadata.description ? 
         ( <>
             <p>{ metadata.description }</p>
-            {/* <Sters /> */}
         </> ) :
         null
     
-    
-
     return (
         <div className="fancy">
             <Head>
@@ -54,16 +44,19 @@ export default function BlogLayout( { metadata, children } ) {
 
                 { title }
                 { description }
-                <Sters />
+
+                <Hr variant="double" />
 
                 { children }
 
-                <Sters />
+                <Hr variant="double" />
 
                 <nav>
                     <ul>
-                        <li><a href="../">All writing</a></li>
                         <li><a href="/">Homepage</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/newsletter">Newsletter</a></li>
+                        <li><a href="/feedback">Feedback</a></li>
                     </ul>
                 </nav>
             </article>

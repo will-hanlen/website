@@ -1,13 +1,15 @@
 import {
     getEssayMetadata,
-} from '../../util'
+} from '../util/writing'
+
+import styles from './index.module.css';
 
 import {
     useEffect,
     useState
 } from 'react'
 
-import Sters from '../../Sters'
+import Hr from '../components/Hr'
 
 import Head from 'next/head'
 
@@ -23,14 +25,22 @@ export default function H23 ( {summaries}) {
         </Head>
         <article>
 
-        <h1>Writing</h1>
-        <p>My summary of life, and how to live it.</p>
-        <Sters/>
+        <header>
+            <nav className={styles.homepage}>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/newsletter">Newsletter</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <Hr variant="double" />
+
         {summaries.map( (md, i) => {
             return (
                 <div key={i}>
 
-                        <a href={`/writing/${md.slug}`}>
+                        <a href={`/${md.slug}`}>
                             {md.title}
                         </a>
                     <p>
@@ -46,7 +56,7 @@ export default function H23 ( {summaries}) {
 
 export async function getStaticProps() {
 
-    const summaries = await getEssayMetadata('published')
+    const summaries = await getEssayMetadata()
 
     return {
         props: {

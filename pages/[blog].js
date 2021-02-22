@@ -1,26 +1,25 @@
 import {
     getEssaySlugs,
     getEssayContent,
-} from '../../util'
+} from '../util/writing'
 
 import hydrate from 'next-mdx-remote/hydrate'
 
-import DraftLayout from '../../DraftLayout'
+import EssayLayout from '../components/EssayLayout'
 
-// imprt Head
 
 export default function Blog ( { metadata, mdxSource } ) {
 
     const content = hydrate(mdxSource)
 
-    return <DraftLayout metadata={metadata} >{ content }</DraftLayout>
+    return <EssayLayout metadata={metadata} >{ content }</EssayLayout>
 }
 
 export async function getStaticProps( { params} ) {
 
     const slug = params.blog
 
-    const post = await getEssayContent('drafts', slug)
+    const post = await getEssayContent(slug)
 
     return {
         props: post
@@ -30,16 +29,18 @@ export async function getStaticProps( { params} ) {
 
 export async function getStaticPaths() {
 
-    const posts = await getEssaySlugs('drafts')
+    const posts = await getEssaySlugs()
 
-    return {
-        paths: posts.map( post => {
-            return { 
-                params: { 
-                    blog: post
-                }
+    const paths = posts.map( post => {
+        return { 
+            params: { 
+                blog: post
             }
-        }),
+        }
+    })
+    
+    return {
+        paths,
         fallback: false,
     }
 }
