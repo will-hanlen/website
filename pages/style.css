@@ -40,7 +40,7 @@ html {
 
 
 body, h1, h2, h3, p, ol,
-ul, div, span, article,
+ul, span, article,
 aside, main, section, header {
   margin: 0;
   padding: 0;
@@ -49,7 +49,6 @@ aside, main, section, header {
   font-size: calc(0.6 * 1rem);
   line-height: 1rem;
 
-  margin-bottom: 1rem;
   color: var(--fg);
 }
 
@@ -73,6 +72,9 @@ body {
 -------------------- Structure ----------------------
 ===================================================*/
 
+p {
+  margin-bottom: 1rem;
+}
 
 article {
   width: 85%;

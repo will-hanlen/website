@@ -10,6 +10,7 @@ const styles = css`
     grid-template-rows: auto;
     grid-template-columns 1fr min(var(--width), 95%) 2fr;
     grid-template-areas: ". content .";
+    margin-bottom: 0;
 }
 
 article {
