@@ -2,6 +2,12 @@ import  Head  from 'next/head'
 import Hr from './Hr'
 import css from 'styled-jsx/css'
 
+import { useState } from 'react'
+
+import { motion } from 'framer-motion';
+import {
+    CSSTransition,
+} from 'react-transition-group'
 import Link from 'next/link'
 
 const styles = css`
@@ -22,9 +28,12 @@ article {
 #top-link {
     margin-top: 0.2rem;
 }
+
 `
 
 export default function EssayLayout( { metadata, children } ) {
+
+    const [inProp, setInProp] = useState(true);
 
     const title = metadata.title ? <h1>{ metadata.title }</h1> : null
 
@@ -36,33 +45,33 @@ export default function EssayLayout( { metadata, children } ) {
     
     return (
         <div className="fancy">
-            <Head>
-                <title>{metadata.title}</title>
-            </Head>
+                <Head>
+                    <title>{metadata.title}</title>
+                </Head>
 
-            <article>
-                <div id="top-link">
-                    <Link href="/"><a id="top-link">Homepage</a></Link>
-                </div>
+                <article>
+                    <div id="top-link">
+                        <Link href="/"><a id="top-link">Homepage</a></Link>
+                        <Link href="/newsletter"><a>Newsletter</a></Link>
+                    </div>
+                        { title }
+                        { description }
 
-                { title }
-                { description }
+                        <Hr variant="double" />
 
-                <Hr variant="double" />
+                        { children }
 
-                { children }
+                        <Hr variant="double" />
 
-                <Hr variant="double" />
-
-                <nav>
-                    <ul>
-                        <li><Link href="/"><a>Homepage</a></Link></li>
-                        <li><Link href="/about"><a>About</a></Link></li>
-                        <li><Link href="/newsletter"><a>Newsletter</a></Link></li>
-                        <li><Link href="/feedback"><a>Feedback</a></Link></li>
-                    </ul>
-                </nav>
-            </article>
+                        <nav>
+                            <ul>
+                                <li><Link href="/"><a>Homepage</a></Link></li>
+                                <li><Link href="/about"><a>About</a></Link></li>
+                                <li><Link href="/newsletter"><a>Newsletter</a></Link></li>
+                                <li><Link href="/feedback"><a>Feedback</a></Link></li>
+                            </ul>
+                        </nav>
+                </article>
             <style jsx>{styles}</style>
         </div>
     )
