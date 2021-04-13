@@ -10,9 +10,15 @@ function MyApp({ Component, pageProps, router }) {
 
     return (
         <SwitchTransition mode='out-in'>
-          <CSSTransition key={router.asPath}
-          classNames='page' timeout={300}>
-            <Component {...pageProps} />
+          <CSSTransition
+            key={router.asPath}
+            classNames='page'
+            onEnter={()=>{
+                window.scrollTo(0, 0)
+            }
+            }
+            timeout={300}>
+             <Component {...pageProps} />
           </CSSTransition>
         </SwitchTransition>
   )

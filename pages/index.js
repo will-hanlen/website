@@ -11,6 +11,8 @@ import {
 
 import Hr from '../components/Hr'
 
+import Linky from '../components/linker'
+
 import Head from 'next/head'
 
 export default function H23 ( {summaries}) {
@@ -28,8 +30,8 @@ export default function H23 ( {summaries}) {
         <header>
             <nav className="homepage">
                 <ul>
-                    <li><Link href="/about"><a>About</a></Link></li>
-                    <li><Link href="/newsletter"><a>Newsletter</a></Link></li>
+                    <li><Linky href="/about">About</Linky></li>
+                    <li><Linky href="/newsletter">Newsletter</Linky></li>
                 </ul>
             </nav>
         </header>
@@ -40,11 +42,7 @@ export default function H23 ( {summaries}) {
             return (
                 <div key={i}>
 
-                        <Link href={`/${md.slug}`}>
-                        <a >
-                            {md.title}
-                        </a>
-                        </Link>
+                        <Linky href={`/${md.slug}`}>{md.title}</Linky>
                     <p>
                         {md.description}
                         </p>

@@ -4,6 +4,8 @@ import css from 'styled-jsx/css'
 
 import { useState } from 'react'
 
+import Linky from './linker'
+
 import { motion } from 'framer-motion';
 import {
     CSSTransition,
@@ -64,10 +66,10 @@ export default function EssayLayout( { metadata, children } ) {
 
                         <nav>
                             <ul>
-                                <li><Link href="/"><a>Homepage</a></Link></li>
-                                <li><Link href="/about"><a>About</a></Link></li>
-                                <li><Link href="/newsletter"><a>Newsletter</a></Link></li>
-                                <li><Link href="/feedback"><a>Feedback</a></Link></li>
+                                <li><Linky href="/">Homepage</Linky></li>
+                                <li><Linky href="/about">About</Linky></li>
+                                <li><Linky href="/newsletter">Newsletter</Linky></li>
+                                <li><Linky href="/feedback">Feedback</Linky></li>
                             </ul>
                         </nav>
                 </article>
