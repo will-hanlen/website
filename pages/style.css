@@ -241,3 +241,6 @@ article > ul li {
   opacity: 0;
   transition: opacity 300ms;
 }
+nav.homepage {
+    margin-top: 2rem;
+}

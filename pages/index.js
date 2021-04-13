@@ -2,8 +2,6 @@ import {
     getEssayMetadata,
 } from '../util/writing'
 
-import styles from './index.module.css';
-
 import Link from 'next/link'
 
 import {
@@ -28,7 +26,7 @@ export default function H23 ( {summaries}) {
         <article>
 
         <header>
-            <nav className={styles.homepage}>
+            <nav className="homepage">
                 <ul>
                     <li><Link href="/about"><a>About</a></Link></li>
                     <li><Link href="/newsletter"><a>Newsletter</a></Link></li>
