@@ -42,7 +42,7 @@ export default function EssayLayout( { metadata, children } ) {
 
             <article>
                 <div id="top-link">
-                    <Link href="../"><a id="top-link">Homepage</a></Link>
+                    <Link href="/"><a id="top-link">Homepage</a></Link>
                 </div>
 
                 { title }

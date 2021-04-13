@@ -2,6 +2,7 @@ import './style.css'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import Flipper from '../components/flipper'
+import { PageTransition } from 'next-page-transitions'
 
 function MyApp({ Component, pageProps }) {
 
@@ -11,12 +12,10 @@ function MyApp({ Component, pageProps }) {
 
     useEffect(() => {
     const handleRouteChangeStart = (url, { shallow }) => {
-        console.log("start")
         setFlipping(true)
     }
 
     const handleRouteChangeEnd = (url, { shallow }) => {
-      console.log("done")
         setFlipping(false)
     }
 
@@ -32,9 +31,29 @@ function MyApp({ Component, pageProps }) {
   }, [])
     
     return (
-        <Flipper flipping={flipping}>
-            <Component {...pageProps} />
-        </Flipper>
+        //<Flipper flipping={flipping}>
+        <>
+        <PageTransition timeout={300} classNames="page-transition">
+            <Component {...pageProps} key={router.route}/>
+        </PageTransition>
+        <style jsx global>{`
+          .page-transition-enter {
+            opacity: 0;
+          }
+          .page-transition-enter-active {
+            opacity: 1;
+            transition: opacity 300ms;
+          }
+          .page-transition-exit {
+            opacity: 1;
+          }
+          .page-transition-exit-active {
+            opacity: 0;
+            transition: opacity 300ms;
+          }
+        `}</style>
+        </>
+        //</Flipper>
     )
 }
 

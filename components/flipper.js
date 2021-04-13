@@ -1,4 +1,5 @@
 import styles from './flipper.module.css'
+import { useState } from 'react'
 
 export default function Flipper ({ flipping, children }) {
 
@@ -6,7 +7,6 @@ export default function Flipper ({ flipping, children }) {
         <>
             <div className={`
                 ${styles.overlay}
-                ${flipping ? styles.cool: null}
                 `}>
             </div>
             { children }
