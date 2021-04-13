@@ -2,6 +2,8 @@ import  Head  from 'next/head'
 import Hr from './Hr'
 import css from 'styled-jsx/css'
 
+import Link from 'next/link'
+
 const styles = css`
 
 .fancy {
@@ -40,7 +42,7 @@ export default function EssayLayout( { metadata, children } ) {
 
             <article>
                 <div id="top-link">
-                    <a href="../" id="top-link">Homepage</a>
+                    <Link href="../"><a id="top-link">Homepage</a></Link>
                 </div>
 
                 { title }
@@ -54,10 +56,10 @@ export default function EssayLayout( { metadata, children } ) {
 
                 <nav>
                     <ul>
-                        <li><a href="/">Homepage</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/newsletter">Newsletter</a></li>
-                        <li><a href="/feedback">Feedback</a></li>
+                        <li><Link href="/"><a>Homepage</a></Link></li>
+                        <li><Link href="/about"><a>About</a></Link></li>
+                        <li><Link href="/newsletter"><a>Newsletter</a></Link></li>
+                        <li><Link href="/feedback"><a>Feedback</a></Link></li>
                     </ul>
                 </nav>
             </article>

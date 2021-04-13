@@ -4,6 +4,8 @@ import {
 
 import styles from './index.module.css';
 
+import Link from 'next/link'
+
 import {
     useEffect,
     useState
@@ -28,8 +30,8 @@ export default function H23 ( {summaries}) {
         <header>
             <nav className={styles.homepage}>
                 <ul>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/newsletter">Newsletter</a></li>
+                    <li><Link href="/about"><a>About</a></Link></li>
+                    <li><Link href="/newsletter"><a>Newsletter</a></Link></li>
                 </ul>
             </nav>
         </header>
@@ -40,9 +42,11 @@ export default function H23 ( {summaries}) {
             return (
                 <div key={i}>
 
-                        <a href={`/${md.slug}`}>
+                        <Link href={`/${md.slug}`}>
+                        <a >
                             {md.title}
                         </a>
+                        </Link>
                     <p>
                         {md.description}
                         </p>
