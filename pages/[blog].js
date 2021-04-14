@@ -4,6 +4,8 @@ import {
 } from '../util/writing'
 
 import Linky from '../components/linker'
+import Quote from '../components/quote'
+import Hr from '../components/Hr'
 
 import hydrate from 'next-mdx-remote/hydrate'
 
@@ -13,6 +15,22 @@ export default function Blog ( { metadata, mdxSource } ) {
 
     const components = {
         a: ({href, children}) => <Linky href={href}>{children}</Linky>,
+        blockquote: ({children}) => {
+            if (Array.isArray(children)) {
+                console.log(children.slice(-1)[0].props.children)
+                const authorName = children.slice(-1)[0].props.children
+                if (!Array.isArray(authorName)) {
+                    children = children.slice(0, -1)
+                    return (
+                        <Quote author={authorName}>{ children }</Quote>
+                    )
+                }
+            }
+            return (
+                <Quote>{ children } </Quote>
+            )
+        },
+        hr: () => <Hr />,
     }
 
     const content = hydrate(mdxSource, {components})
