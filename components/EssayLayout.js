@@ -6,7 +6,6 @@ import { useState } from 'react'
 
 import Linky from './linker'
 
-import { motion } from 'framer-motion';
 import {
     CSSTransition,
 } from 'react-transition-group'
@@ -34,8 +33,6 @@ article {
 `
 
 export default function EssayLayout( { metadata, children } ) {
-
-    const [inProp, setInProp] = useState(true);
 
     const title = metadata.title ? <h1>{ metadata.title }</h1> : null
 

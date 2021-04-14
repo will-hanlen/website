@@ -3,14 +3,19 @@ import {
     getEssayContent,
 } from '../util/writing'
 
+import Linky from '../components/linker'
+
 import hydrate from 'next-mdx-remote/hydrate'
 
 import EssayLayout from '../components/EssayLayout'
 
-
 export default function Blog ( { metadata, mdxSource } ) {
 
-    const content = hydrate(mdxSource)
+    const components = {
+        a: ({href, children}) => <Linky href={href}>{children}</Linky>,
+    }
+
+    const content = hydrate(mdxSource, {components})
 
     return <EssayLayout metadata={metadata} >{ content }</EssayLayout>
 }
