@@ -1,0 +1,26 @@
+.cont {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.c {
+    --r: clamp(5px, 3.5vw, 30px);
+    display: block;
+    width: 100%;
+    line-height: var(--r);
+    font-size: calc(0.8 * var(--r));
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.c pre {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+        white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+    white-space: -pre-wrap; /* Opera */
+    white-space: -o-pre-wrap; /* Opera */
+    white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-tex/#white-space */
+    word-wrap: break-word; /* IE 5.5+ */
+}
