@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+      font-size: clamp(18px, calc(13px + 1.1vw), 21px); /* = 1 rem */
+}
+
+body {
+    width: 100%;
+    max-width: 50rem;
+    font-family: system-ui, sans-serif;
+    padding: 0 1rem;
+    line-height: 1.625;
+    margin: 0 auto;
+}
+
+#content, article {
+    max-width: 35rem;
+}
+
+h1.title {
+    text-align: left;
+}

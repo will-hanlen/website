@@ -1,0 +1,23 @@
+This is a collection of people, books, blogs, and essays that have
+influenced how I think.
+
+I do not necessarily agree with everything these people say, but these
+ideas played an important role in me becoming who I am.
+
+* Thinking
+
+- [[https://tasshin.com][Tasshin Fogleman]]
+- [[https://www.shinzen.org/about/][Shinzen Young]]
+- [[https://ribonfarm.com][Ribbonfarm]]
+
+* Politics
+
+- [[https://www.dancarlin.com/product-category/common-sense-with-dan-carlin/][Dan Carlin]]
+- [[https://www.unqualified-reservations.org/][Unqualified Reservations]]
+
+* The Good Life
+
+- E. O. Wilson, /The Meaning of Human Existence/
+- Paul Kalanithi, /When Breath Becomes Air/
+- Albert E. N. Gray, [[https://fs.blog/great-talks/common-denominator-success-albert-gray/][/The Common Denominator of Success/]]
+- David Foster Wallace, [[https://fs.blog/2012/04/david-foster-wallace-this-is-water/][/This Is Water/]]

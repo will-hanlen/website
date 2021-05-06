@@ -1,0 +1,76 @@
+#+NAME: indexer
+#+BEGIN_SRC python :exports none :results value raw replace :var path="essays"
+    import os
+
+    #path = "essays"
+    def titleize(string):
+        words = string.split(" ")
+        for i, word in enumerate(words):
+            if len(word)>=4 or i==0 or i==(len(words)-1) or word not in [
+                    "vs","an","the","a","and","but","for","at","by",
+                    "to","of","in"]:
+                words[i] = word.title()
+        return " ".join(words)
+
+    ret_str = ""
+    for f in os.listdir(path):
+        link = "[md:{}/{}]".format(path, f)
+        title = titleize(" ".join(f[:-4].split("_")))
+        display = "[{}]".format(title)
+        ret_str += "- [{}{}]\n".format(link, display)
+
+    return ret_str
+#+END_SRC
+
+#+begin_export markdown
+export const metadata = {
+  title: "Will Hanlen"
+}
+#+end_export
+
+* Will Hanlen
+** Essays
+
+#+CALL: indexer(path="essays")
+
+#+RESULTS:
+- [[md:essays/fame.org][Fame]]
+- [[md:essays/church_of_evolution.org][Church Of Evolution]]
+- [[md:essays/the_creativity_necessity.org][The Creativity Necessity]]
+- [[md:essays/knowledge_infrastructure.org][Knowledge Infrastructure]]
+- [[md:essays/cultivating_beauty.org][Cultivating Beauty]]
+- [[md:essays/busy_vs_productive.org][Busy vs Productive]]
+- [[md:essays/tool_traps.org][Tool Traps]]
+- [[md:essays/self_communication.org][Self Communication]]
+- [[md:essays/silent_fashion.org][Silent Fashion]]
+
+** Resources
+
+#+CALL: indexer(path="resources")
+
+#+RESULTS:
+- [[md:resources/influences.org][Influences]]
+- [[md:resources/must_read.org][Must Read]]
+- [[md:resources/quotes_and_poems.org][Quotes And Poems]]
+- [[md:resources/writing_guide.org][Writing Guide]]
+
+
+# * Book Summaries
+
+# - [[file:summaries/breaking_smart.org][Breaking Smart]] by Venkatesh Rao
+
+** Programming Case Studies
+
+#+CALL: indexer(path="coding")
+
+#+RESULTS:
+- [[md:coding/coding_an_accountability_community.org][Coding an Accountability Community]]
+
+** Ramblings
+
+#+CALL: indexer(path="ramblings")
+
+#+RESULTS:
+- [[md:ramblings/hiring_questions.org][Hiring Questions]]
+- [[md:ramblings/about.org][About]]
+
