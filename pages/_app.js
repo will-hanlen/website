@@ -1,27 +1,31 @@
 import './style.css'
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/router'
-import {
-    CSSTransition,
-    SwitchTransition 
-} from 'react-transition-group'
+import {MDXProvider} from '@mdx-js/react'
 
-function MyApp({ Component, pageProps, router }) {
+import Head from 'next/head'
+
+function MyApp({ Component, pageProps}) {
+
+    const components = {
+        wrapper: props => {
+            const footer = (
+                <footer>
+                    <a href="/">&larr; homepage</a>
+                </footer>
+            )
+            return (
+                <>
+                    <Head><title>{props?.metadata?.title}</title></Head>
+                    <main {...props} />
+                    {props?.metadata?.footer ? footer : null }
+                </>
+            )}
+    }
 
     return (
-        <SwitchTransition mode='out-in'>
-          <CSSTransition
-            key={router.asPath}
-            classNames='page'
-            onEnter={()=>{
-                window.scrollTo(0, 0)
-            }
-            }
-            timeout={300}>
-             <Component {...pageProps} />
-          </CSSTransition>
-        </SwitchTransition>
-  )
+        <MDXProvider components={components}>
+            <Component {...pageProps} />
+        </MDXProvider>
+    )
 }
 
 export default MyApp

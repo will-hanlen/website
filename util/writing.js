@@ -30,6 +30,22 @@ export async function getEssayContent(slug) {
     }
 }
 
+export async function readFile(path) {
+
+    const rawFile = fs.readFileSync(path, 'utf-8')
+
+    const { data: metadata, content: markdown } = matter(rawFile)
+
+    const mdxSource = await renderToString(markdown)
+
+    return {
+	metadata: {
+	    ...metadata,
+	},
+	mdxSource
+    }
+}
+
 export async function getEssayMetadata(include_drafts) {
 
     include_drafts = include_drafts || false
@@ -42,7 +58,7 @@ export async function getEssayMetadata(include_drafts) {
 
     for (let i = 0; i < files.length; i++) {
         const file = fs.readFileSync(path.join(dir, files[i]), 'utf-8')
-        
+
         const { data: metadata } = matter(file)
 
         const published = metadata.published || false

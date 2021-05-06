@@ -1,12 +1,18 @@
 import Link from 'next/link'
 
-export default function Linky({href, children}) {
+export default function Linky({href, id, children}) {
+
+    if (!href) {
+	return <p>what?</p>
+    }
+    
     return (
         <Link
-            href={href}
+        href={href}
+	id={id}
             scroll={ false }
         >
-            <a>{ children }</a>
+            <a id={id} >{ children }</a>
         </Link>
     )
 }
