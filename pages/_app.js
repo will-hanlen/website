@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps}) {
                 <>
                     <Head><title>{props?.metadata?.title}</title></Head>
                     <main {...props} />
-                    {props?.metadata?.footer ? footer : null }
+                    {!props?.metadata?.nofooter ? footer : null }
                 </>
             )}
     }

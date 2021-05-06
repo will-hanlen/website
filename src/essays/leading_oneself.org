@@ -1,4 +1,10 @@
-#+title: Leading Oneself
+#+begin_export markdown
+export const metadata = {
+  title: "Leading Oneself"
+}
+#+end_export
+
+* Leading Oneself
 
 Most leadership advice boils down to these four things:
 
@@ -17,21 +23,21 @@ fundamentally the same thing: understanding human nature. The only
 difference is that with personal development you are not communicating
 with a team or a partner, but with yourself.
 
-* Having a mission
+** Having a mission
 
 Give yourself a clear, grand mission in life.  Only after surrendering
 to something bigger than yourself can you reach your full potential.
 This mission can change over time, but it should never be
 absent. Embed that mission into everything you do.
 
-* Setting Boundaries
+** Setting Boundaries
 
 Give yourself clear boundaries about what you will never do.  Set
 expectations for your standards in life.  The reasoning behind your
 boundaries and expectations doesn't even have to be completely
 rational as long as it helps you accomplish your mission.
 
-* Self Care
+** Self Care
 
 Care deeply about yourself as a beautiful yet flawed human.
 Treat yourself how you'd like a boss to treat you.
@@ -39,12 +45,12 @@ Validate your goals as worthy uses of your own time.
 
 If you don't support yourself, who will?
 
-* Ownership
+** Ownership
 
 If you see a problem in your life, that's *your* problem.  Nobody
 will fix it but you.  Tell yourself that and believe it.
 
-* Actionable Leadership
+** Actionable Leadership
 
 So how do you lead yourself? How can you communicate with yourself? I
 believe one answer is journalling.

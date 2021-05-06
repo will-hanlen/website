@@ -1,3 +1,11 @@
+#+begin_export markdown
+export const metadata = {
+title: "Stolen Writing Guide"
+}
+#+end_export
+
+* Stolen Writing Guide
+
 A compiled list of writing advice I've stolen from much better writers.
 
 - Write like you speak

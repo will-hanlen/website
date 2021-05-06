@@ -1,6 +1,5 @@
 export const metadata = {
  title: "Busy vs Productive",
- footer: true,
 }
 
 

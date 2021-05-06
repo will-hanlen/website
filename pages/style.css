@@ -25,5 +25,9 @@ footer {
 }
 
 a {
-    color: darkcyan;
+    color: indigo;
+}
+
+hr {
+    margin: 8rem;
 }

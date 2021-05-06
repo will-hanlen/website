@@ -24,7 +24,8 @@
 
 #+begin_export markdown
 export const metadata = {
-  title: "Will Hanlen"
+  title: "Will Hanlen",
+  nofooter: true
 }
 #+end_export
 
@@ -59,12 +60,12 @@ export const metadata = {
 
 # - [[file:summaries/breaking_smart.org][Breaking Smart]] by Venkatesh Rao
 
-** Programming Case Studies
+** Project Case Studies
 
-#+CALL: indexer(path="coding")
+#+CALL: indexer(path="projects")
 
 #+RESULTS:
-- [[md:coding/coding_an_accountability_community.org][Coding an Accountability Community]]
+- [[md:projects/proposal_for_a_better_knowledge_infrastructure.org][Proposal for a Better Knowledge Infrastructure]]
 
 ** Ramblings
 

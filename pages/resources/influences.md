@@ -1,3 +1,10 @@
+export const metadata = {
+title: "Influences"
+}
+
+
+# Influences
+
 This is a collection of people, books, blogs, and essays that have
 influenced how I think.
 
@@ -5,20 +12,20 @@ I do not necessarily agree with everything these people say, but these
 ideas played an important role in me becoming who I am.
 
 
-# Thinking
+## Thinking
 
 -   [Tasshin Fogleman](https://tasshin.com)
 -   [Shinzen Young](https://www.shinzen.org/about/)
 -   [Ribbonfarm](https://ribonfarm.com)
 
 
-# Politics
+## Politics
 
 -   [Dan Carlin](https://www.dancarlin.com/product-category/common-sense-with-dan-carlin/)
 -   [Unqualified Reservations](https://www.unqualified-reservations.org/)
 
 
-# The Good Life
+## The Good Life
 
 -   E. O. Wilson, *The Meaning of Human Existence*
 -   Paul Kalanithi, *When Breath Becomes Air*

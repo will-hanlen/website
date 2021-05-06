@@ -1,7 +1,6 @@
 #+begin_export markdown
 export const metadata = {
  title: "Busy vs Productive",
- footer: true,
 }
 #+end_export
 

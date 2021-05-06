@@ -1,5 +1,6 @@
 export const metadata = {
-  title: "Will Hanlen"
+  title: "Will Hanlen",
+  nofooter: true
 }
 
 
@@ -8,32 +9,26 @@ export const metadata = {
 
 ## Essays
 
--   [Fame](essays/fame)
--   [Church of Evolution](essays/church_of_evolution)
 -   [The Creativity Necessity](essays/the_creativity_necessity)
--   [Knowledge Infrastructure](essays/knowledge_infrastructure)
--   [Cultivating Beauty](essays/cultivating_beauty)
+-   [Leading Oneself](essays/leading_oneself)
 -   [Busy vs Productive](essays/busy_vs_productive)
 -   [Tool Traps](essays/tool_traps)
--   [Self Communication](essays/self_communication)
--   [Silent Fashion](essays/silent_fashion)
 
 
 ## Resources
 
 -   [Influences](resources/influences)
 -   [Must Read](resources/must_read)
+-   [Stolen Writing Guide](resources/stolen_writing_guide)
 -   [Quotes and Poems](resources/quotes_and_poems)
--   [Writing Guide](resources/writing_guide)
 
 
-## Programming Case Studies
+## Project Case Studies
 
--   [Coding an Accountability Community](coding/coding_an_accountability_community)
+-   [Proposal for a Better Knowledge Infrastructure](projects/proposal_for_a_better_knowledge_infrastructure)
 
 
 ## Ramblings
 
--   [Hiring Questions](ramblings/hiring_questions)
--   [About](ramblings/about)
+-   [An Ode to Hairy Footers](ramblings/an_ode_to_hairy_footers)
 

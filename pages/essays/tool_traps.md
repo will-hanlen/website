@@ -1,12 +1,9 @@
-&#x2014;
-title: Tool Traps
-description: 
-    If you suck at painting, a better easel won't fix it.
-    Painting more will.
-    Tools aren't worthless, but they probably aren't as important as you make them out to be.
-date: 3 Jul 2020
-published: true
-&#x2014;
+export const metadata = {
+title: "Tool Traps"
+}
+
+
+# Tool Traps
 
 Sometimes, the most dangerous risks to my productivity are my own tools.
 
@@ -30,13 +27,13 @@ It's a serious problem, and not just for programmers.
 Aspiring musicians obsess over the perfect guitar picks and microphone stands.
 Would-be chefs spend more time researching knives, buying them, and sharpening them, than actually cooking with them.
 
-We fall into this trap because tools are cool, but the truth is, ****tools just aren't as important as we think they are.****
+We fall into this trap because tools are cool, but the truth is, **tools just aren't as important as we think they are.**
 A 1,000 line Emacs config file and a 40% mechanical keyboard may be the most efficient programming setup in the world, but it has little impact on your ability to write quality programs.
 A high-end, hand-crafted guitar may produce the perfect sound, but has little to do with your ability to compose good music.
 The camera on your smartphone is better than any camera that existed in 1940 but that doesn't mean your cinematography rivals that of Casablanca.
 Tools and craft are separate.
 
-****It's easy to improve your tools but it's hard to improve your craft****, yet we often think when we upgrade our tools we upgrade our craft.
+**It's easy to improve your tools but it's hard to improve your craft**, yet we often think when we upgrade our tools we upgrade our craft.
 This is a fallacy.
 If you suck at painting, a better easel won't fix it.
 Painting more will.
