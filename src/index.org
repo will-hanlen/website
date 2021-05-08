@@ -1,25 +1,37 @@
 #+NAME: indexer
-#+BEGIN_SRC python :exports none :results value raw replace :var path="essays"
-    import os
+#+BEGIN_SRC python :exports none :results value raw replace :var path="essays" :var ts=""
+  import os
+  import time
 
-    #path = "essays"
-    def titleize(string):
-        words = string.split(" ")
-        for i, word in enumerate(words):
-            if len(word)>=4 or i==0 or i==(len(words)-1) or word not in [
-                    "vs","an","the","a","and","but","for","at","by",
-                    "to","of","in"]:
-                words[i] = word.title()
-        return " ".join(words)
+  #path = "essays"
+  def titleize(string):
+      words = string.split(" ")
+      for i, word in enumerate(words):
+          if len(word)>=4 or i==0 or i==(len(words)-1) or word not in [
+                  "vs","an","the","a","and","but","for","at","by",
+                  "to","of","in"]:
+              words[i] = word.title()
+      return " ".join(words)
 
-    ret_str = ""
-    for f in os.listdir(path):
-        link = "[md:{}/{}]".format(path, f)
-        title = titleize(" ".join(f[:-4].split("_")))
-        display = "[{}]".format(title)
-        ret_str += "- [{}{}]\n".format(link, display)
+  def timestamp(fn):
+      if bool(ts):
+          seconds = os.path.getmtime(os.path.join(path, fn))
+          gm = time.gmtime(seconds)
+          pretty = time.strftime("%d %b %y", gm)
+          return " \[{}\]".format(pretty)
+      return " "
 
-    return ret_str
+
+  ret_str = ""
+  for f in os.listdir(path):
+      if os.path.isdir(os.path.join(path, f)):
+          continue
+      link = "[md:{}/{}]".format(path, f)
+      title = titleize(" ".join(f[:-4].split("_")))
+      display = "[{}]".format(title)
+      ret_str += "-{} [{}{}]\n".format(timestamp(f), link, display)
+
+  return ret_str
 #+END_SRC
 
 #+begin_export markdown
@@ -45,6 +57,13 @@ export const metadata = {
 - [[md:essays/self_communication.org][Self Communication]]
 - [[md:essays/silent_fashion.org][Silent Fashion]]
 
+** Projects
+
+#+CALL: indexer(path="projects")
+
+#+RESULTS:
+- [[md:projects/proposal_for_a_better_knowledge_infrastructure.org][Proposal for a Better Knowledge Infrastructure]]
+
 ** Resources
 
 #+CALL: indexer(path="resources")
@@ -56,22 +75,15 @@ export const metadata = {
 - [[md:resources/writing_guide.org][Writing Guide]]
 
 
-# * Book Summaries
+** Book Summaries
+
+Coming soon!
 
 # - [[file:summaries/breaking_smart.org][Breaking Smart]] by Venkatesh Rao
 
-** Project Case Studies
-
-#+CALL: indexer(path="projects")
-
-#+RESULTS:
-- [[md:projects/proposal_for_a_better_knowledge_infrastructure.org][Proposal for a Better Knowledge Infrastructure]]
-
 ** Ramblings
 
-#+CALL: indexer(path="ramblings")
+#+CALL: indexer(path="ramblings", ts="")
 
 #+RESULTS:
-- [[md:ramblings/hiring_questions.org][Hiring Questions]]
-- [[md:ramblings/about.org][About]]
-
+  

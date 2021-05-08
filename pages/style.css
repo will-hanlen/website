@@ -3,7 +3,7 @@
 }
 
 html {
-      font-size: clamp(16px, calc(13px + 1.1vw), 19px);
+      font-size: clamp(16px, calc(8px + 1.1vw), 19px);
 }
 
 body {
@@ -18,6 +18,7 @@ body {
 #content, article, main {
     max-width: 35rem;
     margin-bottom: 5rem;
+    margin-top: 3rem;
 }
 
 footer {
@@ -25,9 +26,13 @@ footer {
 }
 
 a {
-    color: indigo;
+    color: darkblue;
 }
 
 hr {
     margin: 8rem;
+}
+
+h1, h2, h3 {
+    line-height: 1.25;
 }

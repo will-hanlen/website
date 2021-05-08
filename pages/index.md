@@ -15,6 +15,11 @@ export const metadata = {
 -   [Tool Traps](essays/tool_traps)
 
 
+## Projects
+
+-   [Better Knowledge Infrastructure](projects/better_knowledge_infrastructure)
+
+
 ## Resources
 
 -   [Influences](resources/influences)
@@ -23,9 +28,9 @@ export const metadata = {
 -   [Quotes and Poems](resources/quotes_and_poems)
 
 
-## Project Case Studies
+## Book Summaries
 
--   [Proposal for a Better Knowledge Infrastructure](projects/proposal_for_a_better_knowledge_infrastructure)
+Coming soon!
 
 
 ## Ramblings

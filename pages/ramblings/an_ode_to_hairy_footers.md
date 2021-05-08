@@ -11,17 +11,14 @@ unrelated to be part of the main content.
 
 Those are the links I really want.
 
-The one-off, wacky links that don't fit with the rest of the blog.
-
 A link to a list of books you recommend? Yes please.
 
-A link subtly evangelizing good web design and selfdogfooding? I love it.
+A link subtly evangelizing [good web design](https://brutalist-web.design/) or [selfdogfood](https://indieweb.org/selfdogfood)? I love it.
 
-A link to your other projects? I will click.
+A link to your [other projects](https://liveineverynow.com)? I will click.
 
-A link explaining that your site was generated from within Org-mode?
+A link explaining that your site was generated from within [Org-mode](https://orgmode.org/)?
 Of course.
 
-A link to a random meme that explains the bizzare title of your site?
-Indeed.
+Keep them coming.
 
