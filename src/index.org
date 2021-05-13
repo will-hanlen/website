@@ -75,7 +75,7 @@ export const metadata = {
 - [[md:resources/writing_guide.org][Writing Guide]]
 
 
-** Book Summaries
+** Summaries
 
 Coming soon!
 
@@ -86,4 +86,6 @@ Coming soon!
 #+CALL: indexer(path="ramblings", ts="")
 
 #+RESULTS:
+-  [[md:ramblings/good_kid_movie_songs.org][Good Kid Movie Songs]]
+-  [[md:ramblings/an_ode_to_hairy_footers.org][An Ode to Hairy Footers]]
   

@@ -28,12 +28,13 @@ export const metadata = {
 -   [Quotes and Poems](resources/quotes_and_poems)
 
 
-## Book Summaries
+## Summaries
 
 Coming soon!
 
 
 ## Ramblings
 
+-   [Good Kid Movie Songs](ramblings/good_kid_movie_songs)
 -   [An Ode to Hairy Footers](ramblings/an_ode_to_hairy_footers)
 
