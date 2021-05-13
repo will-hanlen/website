@@ -36,5 +36,6 @@ Coming soon!
 ## Ramblings
 
 -   [Good Kid Movie Songs](ramblings/good_kid_movie_songs)
+-   [Balance](ramblings/balance)
 -   [An Ode to Hairy Footers](ramblings/an_ode_to_hairy_footers)
 
