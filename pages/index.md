@@ -11,6 +11,7 @@ export const metadata = {
 
 -   [The Creativity Necessity](essays/the_creativity_necessity)
 -   [Leading Oneself](essays/leading_oneself)
+-   [Boundless Interfaces](essays/boundless_interfaces)
 -   [Busy vs Productive](essays/busy_vs_productive)
 -   [Tool Traps](essays/tool_traps)
 
