@@ -1,0 +1,22 @@
+* An Ode to Hairy Footers
+
+A footer is the section at the bottom of a website.
+
+A hairy footer is what I call a footer with lots of interesting and
+useful links.
+
+Interesting and useful enough to be on the site at all, but too
+unrelated to be part of the main content.
+
+Those are the links I really want.
+
+A link to a list of books you recommend? Yes please.
+
+A link subtly evangelizing [[https://brutalist-web.design/][good web design]] or [[https://indieweb.org/selfdogfood][selfdogfood]]? I love it.
+
+A link to your [[https://liveineverynow.com][other projects]]? I will click.
+
+A link explaining that your site was generated from within [[https://orgmode.org/][Org-mode]]?
+Of course.
+
+Keep them coming.
