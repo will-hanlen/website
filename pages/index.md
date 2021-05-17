@@ -9,6 +9,7 @@ export const metadata = {
 
 ## Essays
 
+-   [Callousing](essays/callousing)
 -   [The Creativity Necessity](essays/the_creativity_necessity)
 -   [Boundless Interfaces](essays/boundless_interfaces)
 -   [Busy vs Productive](essays/busy_vs_productive)
