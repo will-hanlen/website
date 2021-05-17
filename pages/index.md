@@ -10,10 +10,10 @@ export const metadata = {
 ## Essays
 
 -   [The Creativity Necessity](essays/the_creativity_necessity)
--   [Leading Oneself](essays/leading_oneself)
 -   [Boundless Interfaces](essays/boundless_interfaces)
 -   [Busy vs Productive](essays/busy_vs_productive)
 -   [Tool Traps](essays/tool_traps)
+-   [Leading Yourself](essays/leading_yourself)
 
 
 ## Projects
@@ -36,8 +36,8 @@ Coming soon!
 
 ## Ramblings
 
+-   [Hairy Footers](ramblings/hairy_footers)
 -   [Good Kid Movie Songs](ramblings/good_kid_movie_songs)
 -   [Internet Rules](ramblings/internet_rules)
 -   [Balance](ramblings/balance)
--   [An Ode to Hairy Footers](ramblings/an_ode_to_hairy_footers)
 

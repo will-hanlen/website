@@ -4,7 +4,7 @@ export const metadata = {
 }
 #+end_export
 
-* Leading Oneself
+* Leading Yourself
 
 Most leadership advice boils down to these four things:
 
