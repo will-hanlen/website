@@ -63,7 +63,7 @@ export const metadata = {
 
 #+RESULTS:
 - [[md:projects/proposal_for_a_better_knowledge_infrastructure.org][Proposal for a Better Knowledge Infrastructure]]
-
+  
 ** Resources
 
 #+CALL: indexer(path="resources")
@@ -74,12 +74,12 @@ export const metadata = {
 - [[md:resources/quotes_and_poems.org][Quotes And Poems]]
 - [[md:resources/writing_guide.org][Writing Guide]]
 
-
 ** Summaries
 
-Coming soon!
+#+CALL: indexer(path="summaries")
 
-# - [[file:summaries/breaking_smart.org][Breaking Smart]] by Venkatesh Rao
+#+RESULTS:
+-  [[md:summaries/unified_minfulness.org][Unified Minfulness]]
 
 ** Ramblings
 

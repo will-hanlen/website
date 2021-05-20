@@ -32,11 +32,12 @@ export const metadata = {
 
 ## Summaries
 
-Coming soon!
+-   [Unified Minfulness](summaries/unified_minfulness)
 
 
 ## Ramblings
 
+-   [Personal Memes](ramblings/personal_memes)
 -   [Hairy Footers](ramblings/hairy_footers)
 -   [Good Kid Movie Songs](ramblings/good_kid_movie_songs)
 -   [Internet Rules](ramblings/internet_rules)
