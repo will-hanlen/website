@@ -1,0 +1,35 @@
+.centered {
+    display: block;
+    margin: 15px auto;
+    /* border: 4px solid black; */
+}
+
+.wide {
+    width: 100%;
+}
+
+.controls {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.knob {
+    display: flex;
+    width: 100%;
+    padding: 3px;
+}
+
+.knob input[type="range"] {
+    flex-grow: 1;
+}
+
+.knob span {
+    min-width: 20%;
+}
+
+.sec {
+    margin: 0;
+    padding: 0;
+}
