@@ -37,3 +37,9 @@ William Blake, [*The Ancient of Days*](https://en.wikipedia.org/wiki/The_Ancient
 
 ![The Ancient of Days by William Blake](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Europe_a_Prophecy_copy_K_plate_01.jpg/442px-Europe_a_Prophecy_copy_K_plate_01.jpg)
 
+---
+
+Alphonse Mucha, *Medea* (via Wikimedia Commons)
+
+![Medea](https://upload.wikimedia.org/wikipedia/commons/5/58/Alfons_Mucha_-_Medea.jpg)
+
