@@ -6,7 +6,7 @@ title: "Antilibrary"
 
 * Antilibrary
 
-An [[https://fs.blog/2013/06/the-antilibrary/][antilibrary]] is a collection of books which you haven't read.
+An [[https://fs.blog/2013/06/the-antilibrary/][antilibrary]] is a collection of books which you /haven't/ read.
 
 They exist to remind us that there is so much important knowledge out
 there, and that we are ignorant of almost all of it.
