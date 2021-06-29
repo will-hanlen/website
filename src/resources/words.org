@@ -1,0 +1,12 @@
+#+begin_export markdown
+export const metadata = {
+title: "Words"
+}
+#+end_export
+
+* Words
+
+A list of cool words.
+
+- [[https://en.wikipedia.org/wiki/Akrasia][akrasia]]
+- [[https://en.wikipedia.org/wiki/Eudaimonia][eudaimonia]]

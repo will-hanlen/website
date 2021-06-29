@@ -57,13 +57,6 @@ export const metadata = {
 - [[md:essays/self_communication.org][Self Communication]]
 - [[md:essays/silent_fashion.org][Silent Fashion]]
 
-** Projects
-
-#+CALL: indexer(path="projects")
-
-#+RESULTS:
-- [[md:projects/proposal_for_a_better_knowledge_infrastructure.org][Proposal for a Better Knowledge Infrastructure]]
-  
 ** Resources
 
 #+CALL: indexer(path="resources")
@@ -81,11 +74,3 @@ export const metadata = {
 #+RESULTS:
 -  [[md:summaries/unified_minfulness.org][Unified Minfulness]]
 
-** Ramblings
-
-#+CALL: indexer(path="ramblings", ts="")
-
-#+RESULTS:
--  [[md:ramblings/good_kid_movie_songs.org][Good Kid Movie Songs]]
--  [[md:ramblings/an_ode_to_hairy_footers.org][An Ode to Hairy Footers]]
-  

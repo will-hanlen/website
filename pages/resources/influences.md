@@ -17,12 +17,12 @@ ideas played an important role in me becoming who I am.
 -   [Tasshin Fogleman](https://tasshin.com)
 -   [Shinzen Young](https://www.shinzen.org/about/)
 -   [Ribbonfarm](https://ribonfarm.com)
+-   [Farnam Street](https://fs.blog)
 
 
 ## Politics
 
 -   [Dan Carlin](https://www.dancarlin.com/product-category/common-sense-with-dan-carlin/)
--   [Unqualified Reservations](https://www.unqualified-reservations.org/)
 
 
 ## The Good Life

@@ -109,8 +109,8 @@ There are 3 attributes to each sensory experience.
     
     Every sensation is active or restful.
     
-    'Active' sensations are what we typically think of sensations like
-    hearing a sound or feeling an itch.
+    'Active' sensations are what we typically think of as
+    sensations. For example, hearing a sound or feeling an itch.
     
     'Restful' sensations are the absence or relaxation of a
     sensation. For example, lack of mental chatter is an example of
@@ -119,15 +119,15 @@ There are 3 attributes to each sensory experience.
 Sensory experiences can be labeled by specifying all three
 attributes.
 
-Typically, the 'out' direction and 'active' intensity are omitted.
+Typically, the 'out' direction and 'active' intensity are omitted when labeling.
 
 Examples:
 
--   See in: A mental image of an apple
--   See rest: Relaxing your eyes or broaden your visual focus
--   Hear: The sound of a bird
--   Hear in rest: Lack of mental chatter
--   Feel in rest:
+-   "See in": A mental image of an apple
+-   "See rest": Relaxing your eyes or broaden your visual focus
+-   "Hear": The sound of a bird
+-   "Hear in rest": Lack of mental chatter
+-   "Feel in rest":
 
 This categorization is powerful because any of the infinite possible
 thoughts can be analyzed as a combination of a few simple
@@ -137,7 +137,7 @@ The practice of labeling helps to untangle the mess of sensations we
 experience which in turn helps us detach from them and lose our sense
 of self being a separate object.
 
-If that doesn't make sense, that's OK, the idea of losing the sense of
+If that doesn't make sense, that's OK. The idea of losing the sense of
 self is really hard to explain. Just trust that I'm not crazy.
 
 
@@ -147,10 +147,10 @@ There is one more big concept that Unified Mindfulness introduces
 about the nature of thought. The concept is called 'gone.' Gone is the
 moment in which a sensory experience disappears or wanes.
 
-When a car drives by and it start to get quieter, that's gone.
+When a car drives by and it start to get quieter, that's 'gone'.
 
 When a light turns off and you can't see what's in front of you
-anymore, that's gone.
+anymore, that's 'gone'.
 
 Gone exists in every moment because every moment is constant giving
 way to a new moment.
@@ -172,7 +172,7 @@ Noting has 2 steps:
     
     This takes less than a second
 
--   Step 2a: Focus intently for a few seconds on the sensation
+-   Step 2a: Focus intently on the sensation for a few seconds
     
     Saturate yourself in the experience
 
@@ -184,8 +184,8 @@ The second practice is called labeling which builds upon noting. In
 labeling, go through the rhythm of noting, but you also think or say a
 label phrase that describes what you're noting.
 
-Saying the label of the thought with an emotionally neutral voice
-helps practice equanimity.
+Saying the label with an emotionally neutral voice helps practice
+equanimity.
 
 Most of energy should still be on experiencing the thing. 5% should be
 on labeling.
