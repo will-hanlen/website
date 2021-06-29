@@ -19,9 +19,7 @@ export const metadata = {
 
 ## Resources
 
--   [Words.](resources/words)
 -   [Quotes](resources/quotes)
--   [Quotes.](resources/quotes)
 -   [Words](resources/words)
 -   [Stolen Writing Guide](resources/stolen_writing_guide)
 -   [Influences](resources/influences)

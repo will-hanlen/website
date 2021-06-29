@@ -6,9 +6,9 @@ title: "Art"
 
 * Art
 
-A curated list of art that I enjoy.
+A list of things which I believe are beautiful.
 
-** Poetry
+-----
 
 William Earnest Henely, /Invictus/
 
@@ -32,8 +32,10 @@ William Earnest Henely, /Invictus/
 > I am the master of my fate,  
 > I am the captian of my soul.  
 
+-----
 
-> This beast is very mean: in fact  
-> It will fight back, when it's attacked.  
->
-> Vladimir Nabokov
+William Blake, [[https://en.wikipedia.org/wiki/The_Ancient_of_Days][/The Ancient of Days/]]
+
+#+begin_export markdown
+![The Ancient of Days by William Blake](https:/upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Europe_a_Prophecy_copy_K_plate_01.jpg/442px-Europe_a_Prophecy_copy_K_plate_01.jpg)
+#+end_export
