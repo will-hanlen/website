@@ -35,5 +35,5 @@ William Earnest Henely, *Invictus*
 
 William Blake, [*The Ancient of Days*](https://en.wikipedia.org/wiki/The_Ancient_of_Days)
 
-![The Ancient of Days by William Blake](https:/upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Europe_a_Prophecy_copy_K_plate_01.jpg/442px-Europe_a_Prophecy_copy_K_plate_01.jpg)
+![The Ancient of Days by William Blake](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Europe_a_Prophecy_copy_K_plate_01.jpg/442px-Europe_a_Prophecy_copy_K_plate_01.jpg)
 
