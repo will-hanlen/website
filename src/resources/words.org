@@ -10,3 +10,5 @@ A list of cool words.
 
 - [[https://en.wikipedia.org/wiki/Akrasia][akrasia]]
 - [[https://en.wikipedia.org/wiki/Eudaimonia][eudaimonia]]
+- continuum
+  - You can almost hear how the double "u" makes a "w" sound

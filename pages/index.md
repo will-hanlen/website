@@ -19,6 +19,8 @@ export const metadata = {
 
 ## Resources
 
+-   [Posessions](resources/posessions)
+-   [Antilibrary](resources/antilibrary)
 -   [Quotes](resources/quotes)
 -   [Words](resources/words)
 -   [Stolen Writing Guide](resources/stolen_writing_guide)
