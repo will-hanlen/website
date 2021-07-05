@@ -5,12 +5,12 @@ title: "Antilibrary"
 
 # Antilibrary
 
-An [antilibrary](https://fs.blog/2013/06/the-antilibrary/) is a collection of books which you haven't read.
+An [antilibrary](https://fs.blog/2013/06/the-antilibrary/) is a collection of books which you *haven't* read.
 
 They exist to remind us that there is so much important knowledge out
 there, and that we are ignorant of almost all of it.
 
-This list contains what I believe are the 10 most important books that
+This list contains what I believe are the ten most pressing books that
 I have not read.
 
 1.  Venkatesh Rao, *Breaking Smart*

@@ -11,7 +11,7 @@ An [[https://fs.blog/2013/06/the-antilibrary/][antilibrary]] is a collection of 
 They exist to remind us that there is so much important knowledge out
 there, and that we are ignorant of almost all of it.
 
-This list contains what I believe are the 10 most important books that
+This list contains what I believe are the ten most pressing books that
 I have not read.
 
 1. Venkatesh Rao, /Breaking Smart/
@@ -25,3 +25,4 @@ I have not read.
 7. Vladimir Nabokov, /Lolita/
 8. John Holt, /How Children Learn/ and /How Children Fail/
 9. John Barton, /A History of the Bible/
+

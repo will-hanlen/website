@@ -37,8 +37,16 @@ others.
 -   Weighted blanket
     -   instead of sleeping on a mattress, I burrito myself on the floor
         in [this](https://ynmhome.com/products/ynm-knitted-weighted-blanket?variant=38211557982401)
--   Cast Iron Skillet
+    -   folds away nicely for the rest of the day
+-   Cast iron skillet
     -   a bit more work than a normal pan, but worth it if you care about
         steak
 -   Pilot G2 Pens
+-   Pomodoro Timer
+    -   Analog timers work better for me
+    -   [This one](https://www.timetimer.com/collections/timers/products/time-timer-mod?variant=29404425191522) is my favorite
+-   Kendama
+    -   Got as a birthday present
+    -   Fun game to get you out of the chair during pomodoro breaks while
+        training hand-eye coordination
 
